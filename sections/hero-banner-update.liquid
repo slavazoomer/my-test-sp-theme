@@ -1,0 +1,497 @@
+
+{% style %}
+/* remove this on deployment */
+#shopify-section-{{ section.id }}{
+    display: none;
+}
+.hero-banner__flickity-wrap{
+    height: 826px
+}
+.hero-banner__flex-wrap{
+    display: flex;
+    height: 100%;
+}
+.hero-banner__left, .hero-banner__right{
+    width: 50%;
+    flex-grow:0;
+    flex-shrink: 0;
+}
+.hero-banner__left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero-banner__right{
+    position: relative;
+}
+.hero-banner__flex-wrap{
+    width: 100%
+}
+.hero-banner__bottom-badges{
+    margin-bottom: 40px;
+}
+.banner-reviews{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+}
+.hero-banner__left{
+    padding: 0 2rem;
+}
+.trust-badge-wrapper{
+    display: flex;
+    gap: 10px;
+}
+.banner-reviews{
+    background: white;
+    padding: 10px
+}
+.hero-banner__right .hero-banner__right-background{
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+    .hero-banner__text-content{
+        width: auto;
+        margin: auto;
+    }
+    .hero-banner__main-title h1{
+        font-size: 64px;
+        line-height: 1;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-family: "Saol Display", "Playfair Display", serif;
+    }
+    .trust-badge{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .trust-badge * {
+        text-align: center;
+        margin: auto;
+    }
+    .hero-banner__above-title span{
+        font-family: "Saol Display", "Playfair Display", serif;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .hero-banner__below-title h3{
+        font-family: "Nunito Sans";
+        font-size: 16px;
+    }
+    .hero-banner__url a{
+        display: inline-block;
+        background: #A8636C;
+        padding: 10px 45px;
+        color: white;
+        text-transform: uppercase;
+        font-family: "Nunito Sans";
+        font-size: 12px;
+        text-decoration-line: none;
+    }
+    .banner-reviews__title span{
+        font-family: "Saol Display", "Playfair Display", serif;
+        font-size: 12px;
+        color: #262626;
+    }
+    .banner-reviews__text{
+        line-height: 14px;
+    }
+    .banner-reviews__text span, .banner-reviews__text a{
+        font-family: "Nunito Sans";
+        font-size: 12px;
+        color: #54565B;
+        text-decoration-line: none;
+    }
+    .banner-reviews__text a{
+        font-weight: 600;
+    }
+    .banner-reviews__inner{
+        position: relative;
+        display: flex;
+    }
+    .banner-reviews__inner .button-wrapper{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .banner-reviews__inner .button-arrow{
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    .banner-reviews__inner .next-arrow{
+        transform: rotate(180deg)
+    }
+    .hero-banner__outer-banner{
+        position: relative;
+    }
+    @media screen and (max-width: 768px){
+        .hero-banner__flex-wrap{
+            flex-direction: column-reverse;
+        }
+        .hero-banner__left{
+            padding: 20px;
+            padding-bottom: 30px;
+        }
+        .hero-banner__left, .hero-banner__right{
+            width: 100%
+        }
+        .banner-reviews{
+            display: none;
+        }
+        .hero-banner__right{
+            height: 500px;
+        }
+        .hero-banner__right .hero-banner__right-background{
+            height: 100%;
+        }
+        .hero-banner__flickity-wrap{
+            height: 100%;
+        }
+        .hero-banner__above-title{
+            text-align: center;
+        }
+        .hero-banner__above-title span{
+            font-size: 14px;
+
+        }
+        .hero-banner__main-title h1{
+            font-size: 34px;
+            text-align: center
+        }
+        .hero-banner__below-title h3{
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            line-height: 23px;
+        }
+        .hero-banner__url{
+            margin-bottom: 20px;
+        }
+        .hero-banner__url a{
+            font-size: 14px;
+            width: 100%;
+            text-align: center;
+        }
+        .hero-banner__bottom-badges{
+            margin-bottom: 0;
+        }
+    }
+
+    @media screen and (min-width: 750px) {
+        #shopify-section-{{ section.id }} .flickity-page-dots {
+           bottom: 40px;
+           left: 50%;
+           transform: translateX(-50%);
+           background: transparent;
+           gap: 10px;
+        }
+        #shopify-section-{{ section.id }} .flickity-page-dots .flickity-page-dot {
+            width: 5rem;
+            height: 3.4rem;
+            align-items: flex-end;
+            overflow: hidden;
+            position: relative;
+            opacity: 1;
+            padding: 0;
+        }
+
+        #shopify-section-{{ section.id }} .flickity-page-dots .flickity-page-dot::after {
+            opacity: 0.4;
+            width: 100%;
+            height: 0.2rem;
+            border-radius: 0;
+            transition-property: height, opacity;
+            transition-duration: var(--duration-default);
+            transition-timing-function: ease;
+        }
+
+        #shopify-section-{{ section.id }} .flickity-page-dots .flickity-page-dot::before {
+            content: '';
+            z-index: 1;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 0.5rem;
+            background-color: rgb(var(--color-foreground));
+            transform: translate(-100%);
+            transition: none;
+            background-color: transparent;
+            border: 1px solid white;
+        }
+
+        #shopify-section-{{ section.id }} .flickity-page-dots .flickity-page-dot:hover::after {
+            opacity: 1;
+        }
+
+        #shopify-section-{{ section.id }} .flickity-page-dots .is-selected::after {
+            height: 0.5rem;
+            transform: scale(1);
+        }
+
+        #shopify-section-{{ section.id }} .flickity-page-dots .flickity-page-dot.is-selected::before {
+            animation: slideshow-dots 0s linear forwards;
+            background-color: white;
+        }
+
+        @keyframes slideshow-dots {
+            0% {
+            transform: translateX(-100%);
+            }
+            to {
+            transform: translateX(0);
+            }
+        }
+    }
+    #shopify-section-{{ section.id }} .banner-reviews__content-flickity-inner{
+        position: relative;
+    }
+    #shopify-section-{{ section.id }} .banner-reviews__content-flickity .flickity-slider{
+        position: relative;
+    }
+    @media screen and (max-width: 749px) {
+        #shopify-section-{{ section.id }} .flickity-page-dots {
+        padding: 0;
+        background-color: transparent;
+        bottom: 485px;
+        left: 50%;
+        transform: translate(-50%);
+        column-gap: 1rem;
+    }
+
+    #shopify-section-{{ section.id }} .flickity-page-dot {
+        width: 5rem;
+        height: 2.5rem;
+        padding: 0;
+        align-items: flex-end;
+    }
+
+    #shopify-section-{{ section.id }} .flickity-page-dot::after {
+        width: 100%;
+        height: 0.2rem;
+        border-radius: 0;
+        transform: scale(1);
+        transition: height var(--duration-default) ease;
+        background-color: white;
+    }
+
+    #shopify-section-{{ section.id }}  .flickity-page-dot.is-selected::after {
+        height: 0.5rem;
+    }
+
+  }
+{% endstyle %}
+{% capture five_stars %}
+    {% for i in (1..5) %}
+        <svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.89412 6.42972L7.49622 8.00024L6.8057 5.04024L9.10465 3.04867L6.07728 2.79182L4.89412 0.000244141L3.71096 2.79182L0.683594 3.04867L2.98254 5.04024L2.29201 8.00024L4.89412 6.42972Z" fill="url(#paint0_linear_45_22761)"/>
+            <defs>
+            <linearGradient id="paint0_linear_45_22761" x1="0.683594" y1="0.000244141" x2="9.10465" y2="0.000244141" gradientUnits="userSpaceOnUse">
+            <stop offset="1" stop-color="#262626"/>
+            </linearGradient>
+            </defs>
+        </svg>        
+    {% endfor %}
+{% endcapture %}
+<div class="hero-banner__outer-banner">
+    <div class="hero-banner__flickity-wrap">
+        {%  for block in section.blocks %}
+            <div class="hero-banner__flex-wrap" style="background-color: {{ block.settings.left_background }}">
+                <div class="hero-banner__left">
+                    <div class="hero-banner__text-content">
+                        <div class="hero-banner__above-title"><span>{{ block.settings.banner_above_title }}</span></div>
+                        <div class="hero-banner__main-title"><h1>{{ block.settings.banner_title }}</h1></div>
+                        <div class="hero-banner__below-title"><h3>{{ block.settings.banner_below_title }}</h3></div>
+                        <div class="hero-banner__url"><a href="{{ block.settings.button_link }}">{{ block.settings.button_text }}</a></div>
+                    </div>
+                    <div class="hero-banner__bottom-badges">
+                        {% liquid
+                            assign badge_text_array = block.settings.badge_text | split: '|'
+                            assign badge_images_array = block.settings.badge_images | split: '|'
+                        %}
+                        <div class="trust-badge-wrapper">
+                        {% for badge_text in badge_text_array %}
+                            <div class="trust-badge">
+                                
+                                <img src="{{ badge_images_array[forloop.index0] }}" loading="lazy" width="64" height="64" />
+                                <div>{{  badge_text  }}</div>
+                            </div>
+                        {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-banner__right">
+                    <img class="hero-banner__right-background" src="{{ block.settings.banner_background | img_url: '826x' }}" loading="lazy" height="826" />
+                    {% liquid 
+                        assign review_titles_array = block.settings.review_titles | split: '|'
+                        assign review_text_array = block.settings.review_text | split: '|'
+                        assign review_url_array = block.settings.review_url | split: '|'
+                    %}
+                        <div class="banner-reviews">
+                            <div class="banner-reviews__inner">
+                                <div class="banner-review__image">
+                                    <img src="{{ block.settings.review_image | img_url: '200x' }}" loading="lazy" width="105" height="105" />
+                                </div>
+                                <div class="banner-reviews__content">
+                                    <div class="banner-review__stars">
+                                        {{ five_stars }}
+                                    </div>
+                                    <div class="banner-reviews__content-flickity">
+                                        {% for title in review_titles_array %}
+                                            <div class="banner-reviews__content-flickity-inner">
+                                                <div class="banner-reviews__title"><span>{{ review_titles_array[forloop.index0] }}</span></div>
+                                                <div class="banner-reviews__text">
+                                                    <span>{{ review_text_array[forloop.index0] }}</span>
+                                                    <a href="{{ review_url_array[forloop.index0] }}">Read More</a>
+                                                </div>
+                                            </div>
+                                        {% endfor %}  
+                                    </div>
+                                </div>
+                                <div class="button-wrapper">
+                                    <button class="prev-arrow button-arrow">
+                                        <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.78715 8.38239C4.75687 8.4559 4.70888 8.52078 4.64746 8.57125C4.58604 8.62173 4.51309 8.65624 4.43511 8.6717C4.35713 8.68716 4.27654 8.6831 4.2005 8.65988C4.12447 8.63666 4.05536 8.595 3.99932 8.5386L0.142181 4.68146C0.0972809 4.63667 0.0616573 4.58347 0.037351 4.52489C0.0130447 4.46631 0.000533478 4.40352 0.000533483 4.3401C0.000533489 4.27668 0.0130447 4.21389 0.0373511 4.15531C0.0616574 4.09673 0.0972809 4.04353 0.142181 3.99874L3.99932 0.141601C4.08986 0.0510666 4.21265 0.00020622 4.34068 0.000206231C4.46872 0.000206242 4.59151 0.0510667 4.68204 0.141601C4.77257 0.232134 4.82343 0.354924 4.82343 0.482958C4.82343 0.610992 4.77257 0.733782 4.68204 0.824315L1.64743 3.85796L12.055 3.85796C12.1828 3.85796 12.3055 3.90876 12.3959 3.99918C12.4863 4.08959 12.5371 4.21223 12.5371 4.3401C12.5371 4.46797 12.4863 4.59061 12.3959 4.68103C12.3055 4.77145 12.1828 4.82224 12.055 4.82224L1.64743 4.82224L4.68204 7.85589C4.74978 7.92334 4.79594 8.00941 4.81466 8.10315C4.83337 8.1969 4.8238 8.29409 4.78715 8.38239Z" fill="#262626"/>
+                                        </svg>                                        
+                                    </button>
+                                    <button class="next-arrow button-arrow">
+                                        <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.78715 8.38239C4.75687 8.4559 4.70888 8.52078 4.64746 8.57125C4.58604 8.62173 4.51309 8.65624 4.43511 8.6717C4.35713 8.68716 4.27654 8.6831 4.2005 8.65988C4.12447 8.63666 4.05536 8.595 3.99932 8.5386L0.142181 4.68146C0.0972809 4.63667 0.0616573 4.58347 0.037351 4.52489C0.0130447 4.46631 0.000533478 4.40352 0.000533483 4.3401C0.000533489 4.27668 0.0130447 4.21389 0.0373511 4.15531C0.0616574 4.09673 0.0972809 4.04353 0.142181 3.99874L3.99932 0.141601C4.08986 0.0510666 4.21265 0.00020622 4.34068 0.000206231C4.46872 0.000206242 4.59151 0.0510667 4.68204 0.141601C4.77257 0.232134 4.82343 0.354924 4.82343 0.482958C4.82343 0.610992 4.77257 0.733782 4.68204 0.824315L1.64743 3.85796L12.055 3.85796C12.1828 3.85796 12.3055 3.90876 12.3959 3.99918C12.4863 4.08959 12.5371 4.21223 12.5371 4.3401C12.5371 4.46797 12.4863 4.59061 12.3959 4.68103C12.3055 4.77145 12.1828 4.82224 12.055 4.82224L1.64743 4.82224L4.68204 7.85589C4.74978 7.92334 4.79594 8.00941 4.81466 8.10315C4.83337 8.1969 4.8238 8.29409 4.78715 8.38239Z" fill="#262626"/>
+                                        </svg>    
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const sectionFlickity = new Flickity(document.querySelector('#shopify-section-{{ section.id }} .hero-banner__flickity-wrap'), {
+        accessibility: true,
+        rightToLeft: theme.config.rtl,
+        prevNextButtons: false,
+        pageDots: true,
+        wrapAround: true,
+        draggable: false,
+        adaptiveHeight: true,
+    })
+    const reviewsFlickity = new Flickity(document.querySelector('#shopify-section-{{ section.id }} .banner-reviews__content-flickity'), {
+        accessibility: true,
+        prevNextButtons: false,
+        pageDots: false,
+        wrapAround: false,
+        contain: true,
+    })
+    if(document.querySelector('#shopify-section-{{ section.id }} .button-wrapper .next-button')){
+        document.querySelectorAll('#shopify-section-{{ section.id }} .button-wrapper .next-button').forEach(item => {
+            item.addEventListener('click', () => {
+                reviewsFlickity.next()
+            })
+        })
+    }
+    if(document.querySelector('#shopify-section-{{ section.id }} .button-wrapper .next-button')){
+        document.querySelectorAll('#shopify-section-{{ section.id }} .button-wrapper .prev-button').forEach(item => {
+            item.addEventListener('click', () => {
+                reviewsFlickity.previous()
+            })
+        })
+    }
+})
+
+</script>
+{% schema %}
+{
+    "name": "Updated Banner",
+    "class": "growthbook-test homepage-banner",
+    "blocks": [
+        {
+            "type": "homepage_banner",
+            "name": "Homepage Banner",
+            "settings": [
+                {
+                    "type": "color",
+                    "id": "left_background",
+                    "label": "Banner Left Background Color"
+                },
+                {
+                    "type": "textarea",
+                    "id": "banner_title",
+                    "label": "Banner Title",
+                    "default": "Clean & Fresh. <br/> Inside Out."
+                },
+                {
+                    "type": "text",
+                    "id": "banner_above_title",
+                    "label": "Above title text"
+                },
+                {
+                    "type": "textarea",
+                    "id": "banner_below_title",
+                    "label": "Below title text"
+                },
+                {
+                    "type": "url",
+                    "id": "button_url",
+                    "label": "Button Url"
+                },
+                {
+                    "type": "text",
+                    "id": "button_text",
+                    "label": "Button Text"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "banner_background",
+                    "label": "Banner Background"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "review_image",
+                    "label": "Review Image"
+                },
+                {
+                    "type": "textarea",
+                    "id": "review_titles",
+                    "label": "Review Titles, seperated by '|'"
+                },
+                {
+                    "type": "textarea",
+                    "id": "review_text",
+                    "label": "Review Text, seperated by '|'"
+                },
+                {
+                    "type": "textarea",
+                    "id": "review_url",
+                    "label": "Review Urls, seperated by '|'"
+                },
+                {
+                    "type": "textarea",
+                    "id": "badge_text",
+                    "label": "Badge text, seperated by '|'"
+                },
+                {
+                    "type": "textarea",
+                    "id": "badge_images",
+                    "label": "Badge Images URLs, seperated by '|'"
+                }
+            ]   
+        }
+    ],
+    "presets": [
+        {
+            "name": "Hero Banner Updated"
+        }
+    ]
+}
+{% endschema %}

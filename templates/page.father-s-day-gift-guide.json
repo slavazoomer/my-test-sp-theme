@@ -1,0 +1,465 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "7554eec6-7820-45e1-ab38-6f98f6976f89": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14923422105642__7554eec6-7820-45e1-ab38-6f98f6976f89-1683143252c8d046a7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Father's Day Gift Guide",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14923422105642__7554eec6-7820-45e1-ab38-6f98f6976f89-1683143252c8d046a7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find a great gift for every type of Dad!<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14923422105642__7554eec6-7820-45e1-ab38-6f98f6976f89-1683143252c8d046a7-0",
+        "template--14923422105642__7554eec6-7820-45e1-ab38-6f98f6976f89-1683143252c8d046a7-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FDbanner_c6beeb1b-94c8-456f-a229-fe1059a1e700.jpg",
+        "image_position": "center center",
+        "text_box_position": "middle-left",
+        "text_alignment": "center",
+        "image_ratio": "500px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#030303",
+        "colors_overlay_opacity": 28,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "e3095f9d-37da-4dcf-9403-960dd21e1feb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14923422105642__e3095f9d-37da-4dcf-9403-960dd21e1feb-168321690087a5c7e4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "For the Active Dad",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14923422105642__e3095f9d-37da-4dcf-9403-960dd21e1feb-168321690087a5c7e4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For the Dad that is bouncing from one activity to the next, keep it simple with CLEAN CLASSIC Pure Soap, CLEAN RESERVE Kakadu Plum Brightening Deodorant, and the CLEAN RESERVE Skincare line.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14923422105642__e3095f9d-37da-4dcf-9403-960dd21e1feb-168321690087a5c7e4-0",
+        "template--14923422105642__e3095f9d-37da-4dcf-9403-960dd21e1feb-168321690087a5c7e4-1"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "5c65209f-04d7-48d2-bbf8-f79ef7f49a21": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14923422105642__5c65209f-04d7-48d2-bbf8-f79ef7f49a21-16831430456559dd84-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pure-soap_77b97693-83db-4653-a24a-9a38009486cc.jpg",
+            "title": "CLEAN CLASSIC Pure Soap",
+            "title_size": "h3",
+            "text": "<p>Inspired by the familiar, uplifting scent of fresh soap that energizes and rejuvenates, making you feel squeaky clean. <\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/pure-soap",
+            "button_style_secondary": false
+          }
+        },
+        "template--14923422105642__5c65209f-04d7-48d2-bbf8-f79ef7f49a21-16831430456559dd84-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shot_20_HSB_Deo_Shot_20_HSB_Deo_0535_square.jpg",
+            "title": "CLEAN RESERVE Deodorant",
+            "title_size": "h3",
+            "text": "<p>Bright and energizing. CLEAN RESERVE Kakadu Plum Brightening Deodorant is a natural deodorant made without aluminum or baking soda that helps neutralize body odor and soothe skin. <\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/kakadu-plum-brightening-deodorant",
+            "button_style_secondary": false
+          }
+        },
+        "template--14923422105642__5c65209f-04d7-48d2-bbf8-f79ef7f49a21-16831430456559dd84-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skincare_2.23_sq.jpg",
+            "title": "CLEAN RESERVE Skincare",
+            "title_size": "h3",
+            "text": "<p>Our easy skincare collection is a powerhouse of sustainable ingredients with proven actives for superior benefits that work to provide hydration and nourishment all day long.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/skin-body",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14923422105642__5c65209f-04d7-48d2-bbf8-f79ef7f49a21-16831430456559dd84-0",
+        "template--14923422105642__5c65209f-04d7-48d2-bbf8-f79ef7f49a21-16831430456559dd84-1",
+        "template--14923422105642__5c65209f-04d7-48d2-bbf8-f79ef7f49a21-16831430456559dd84-2"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "dcb22c22-4b39-48e1-9b5d-a6eb5465fd3f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14923422105642__dcb22c22-4b39-48e1-9b5d-a6eb5465fd3f-16831430456559dd84-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "title_size": "h3",
+            "text": "<p><\/p><p><\/p><p><\/p><p>The outdoorsy Dad will LOVE a fragrance that reminds him of spending some quality time outside. CLEAN CLASSIC Rain is inspired by the moment after a passing rain when the air smells clean and fresh. <\/p><p>CLEAN RESERVE Acqua Neroli will transport you to your favorite sunshine-filled spot by the sea. <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--14923422105642__dcb22c22-4b39-48e1-9b5d-a6eb5465fd3f-16831430456559dd84-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CBC_April2023_Digital_AcquaNeroli_100ml_11_square.webp",
+            "title": "CLEAN RESERVE Acqua Neroli",
+            "title_size": "h3",
+            "text": "<p>This addictive unisex fragrance is the perfect balance of citrus notes that blend into a white floral heart anchored by the neroli flower. The watery musk that lingers on the skin evokes sunshine by the sea.<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/clean-reserve-acqua-neroli",
+            "button_style_secondary": false
+          }
+        },
+        "template--14923422105642__dcb22c22-4b39-48e1-9b5d-a6eb5465fd3f-16831430456559dd84-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Clean_Classic_Lifestyle-Rain_Sht3_v2.1.jpg",
+            "title": "CLEAN CLASSIC Rain",
+            "title_size": "h3",
+            "text": "<p>Inspired by the moment after a passing rain when the air smells clean, fresh, and renewed. The purity of musk wrapped around sheer woods evoke the familiar scent after a fleeting rain.<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/clean-classic-rain",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14923422105642__dcb22c22-4b39-48e1-9b5d-a6eb5465fd3f-16831430456559dd84-0",
+        "template--14923422105642__dcb22c22-4b39-48e1-9b5d-a6eb5465fd3f-16831430456559dd84-1",
+        "template--14923422105642__dcb22c22-4b39-48e1-9b5d-a6eb5465fd3f-16831430456559dd84-2"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "For the Outdoorsy Dad",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "28f0de96-5df4-43fe-a0d9-e721f5385350": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14923422105642__28f0de96-5df4-43fe-a0d9-e721f5385350-16831430456559dd84-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "title_size": "h3",
+            "text": "<p><\/p><p>A Dad who is always on the go traveling needs a variety of TSA-friendly travel-sized fragrances, perfectly sized to pop into his travel toiletry bag. <\/p><p>CLEAN CLASSIC Ultimate is a great universal scent he can spritz on for an occasion throughout his travels.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--14923422105642__28f0de96-5df4-43fe-a0d9-e721f5385350-16831430456559dd84-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ULTIMATE_3_1000x_ef4b1dd2-e65c-44d1-ad19-982d7d6ca847.jpg",
+            "title": "CLEAN CLASSIC Ultimate",
+            "title_size": "h3",
+            "text": "<p>The brightness of Italian Bergamot and Provencal Lemon intertwines with sensual musks and bright florals for a fragrance with the ultimate appeal.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/clean-classic-ultimate",
+            "button_style_secondary": false
+          }
+        },
+        "template--14923422105642__28f0de96-5df4-43fe-a0d9-e721f5385350-16831430456559dd84-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Clean_reserve_travel_solar_bloom_warm_cotton_rain_f9904a33-f08f-473d-bea0-7332254b72ac.jpg",
+            "title": "Travel Sizes",
+            "title_size": "h3",
+            "text": "<p>Your favorite scents in travel-friendly sizes, perfect for someone always on-the-go!<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/travel-sizes",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14923422105642__28f0de96-5df4-43fe-a0d9-e721f5385350-16831430456559dd84-0",
+        "template--14923422105642__28f0de96-5df4-43fe-a0d9-e721f5385350-16831430456559dd84-1",
+        "template--14923422105642__28f0de96-5df4-43fe-a0d9-e721f5385350-16831430456559dd84-2"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "For the Busy Travel Dad",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d72540a4-575b-44db-88fc-c8d9925fc236": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14923422105642__d72540a4-575b-44db-88fc-c8d9925fc236-16831430456559dd84-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "title_size": "h3",
+            "text": "<p><\/p><p>The sophisticated Dad would love some of our RESERVE fragrances. CLEAN RESERVE Sel Santal and CLEAN RESERVE Sueded Oud are both unisex fragrances featuring some woodsy notes. Wear alone or layer them together for an intriguing and unique scent!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--14923422105642__d72540a4-575b-44db-88fc-c8d9925fc236-16831430456559dd84-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CBC_June2023_Digital_100ml_SelSantal_01_SQUARE_5d25fe14-24a0-4923-9567-dc4835fc6799.webp",
+            "title": "CLEAN RESERVE Sel Santal",
+            "title_size": "h3",
+            "text": "<p>Inspired by a bit of spice to invigorate your day. This unisex fragrance has notes of Sandalwood that add a smoky masculine texture softened by a sprinkle of amber.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/clean-reserve-sel-santal",
+            "button_style_secondary": false
+          }
+        },
+        "template--14923422105642__d72540a4-575b-44db-88fc-c8d9925fc236-16831430456559dd84-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CLEAN_RESERVE_SUEDED_OUD_WOOD_NATURAL_TRAVEL_3.jpg",
+            "title": "CLEAN RESERVE Sueded Oud",
+            "title_size": "h3",
+            "text": "<p>This unisex fragrance is the culmination of smoky darkness and airy lightness. The intoxicating dark oud softened by whispers of light florals and an underlying creamy sweetness creates an exotic signature fragrance.<\/p>",
+            "button_label": "Shop NOw",
+            "button_link": "shopify:\/\/products\/clean-reserve-sueded-oud",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14923422105642__d72540a4-575b-44db-88fc-c8d9925fc236-16831430456559dd84-0",
+        "template--14923422105642__d72540a4-575b-44db-88fc-c8d9925fc236-16831430456559dd84-1",
+        "template--14923422105642__d72540a4-575b-44db-88fc-c8d9925fc236-16831430456559dd84-2"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "For the Sophisticated Dad",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "94122582-c730-44f5-b160-8e489adade76": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14923422105642__94122582-c730-44f5-b160-8e489adade76-16831430456559dd84-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "title_size": "h3",
+            "text": "<p><\/p><p>What to get the Dad who has everything? He would probably love our line of \"farm-to-formula\" Buriti & Aloe Purifying Body Wash and Buriti Hydrating Body Lotion. <\/p><p>Another great choice is CLEAN CLASSIC Cool Cotton, a crisp and refreshing unisex scent.<\/p><p>If all else fails - snag a <a href=\"\/products\/gift-card\" title=\"\/products\/gift-card\">Clean Beauty Collective Gift Card!<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--14923422105642__94122582-c730-44f5-b160-8e489adade76-16831430456559dd84-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CBC_April2023_Digital_CoolCotton_60ml_09_square.jpg",
+            "title": "CLEAN CLASSIC Cool Cotton",
+            "title_size": "h3",
+            "text": "<p>A blend of a cotton accord, musk, and amber evokes the familiar comfort of your favorite cotton tee.<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/clean-classic-cool-cotton",
+            "button_style_secondary": false
+          }
+        },
+        "template--14923422105642__94122582-c730-44f5-b160-8e489adade76-16831430456559dd84-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Body_2.23_sq.jpg",
+            "title": "CLEAN RESERVE Bodycare",
+            "title_size": "h3",
+            "text": "<p>A “farm-to-formula” collection of balancing body essentials infused with a blend of sustainably sourced efficacious botanicals and potent clean actives that moisturize and soothe for head-to-toe nourishment.<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/skin-body",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14923422105642__94122582-c730-44f5-b160-8e489adade76-16831430456559dd84-0",
+        "template--14923422105642__94122582-c730-44f5-b160-8e489adade76-16831430456559dd84-1",
+        "template--14923422105642__94122582-c730-44f5-b160-8e489adade76-16831430456559dd84-2"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "For the Dad Who Has Everything",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16835688846dc073ff": {
+      "type": "apps",
+      "blocks": {
+        "f80eb861-f71f-4f73-9c5d-f341f9dd3435": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "f80eb861-f71f-4f73-9c5d-f341f9dd3435"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b5623a7f-b4b7-4bde-9c75-0cdf9fea2eae": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14923422105642__b5623a7f-b4b7-4bde-9c75-0cdf9fea2eae-16837325558f9246bd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP ALL",
+            "button_link": "shopify:\/\/collections\/fathers-day-gift-guide",
+            "button_size": "large",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14923422105642__b5623a7f-b4b7-4bde-9c75-0cdf9fea2eae-16837325558f9246bd-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#605e5e",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7554eec6-7820-45e1-ab38-6f98f6976f89",
+    "e3095f9d-37da-4dcf-9403-960dd21e1feb",
+    "5c65209f-04d7-48d2-bbf8-f79ef7f49a21",
+    "dcb22c22-4b39-48e1-9b5d-a6eb5465fd3f",
+    "28f0de96-5df4-43fe-a0d9-e721f5385350",
+    "d72540a4-575b-44db-88fc-c8d9925fc236",
+    "94122582-c730-44f5-b160-8e489adade76",
+    "16835688846dc073ff",
+    "b5623a7f-b4b7-4bde-9c75-0cdf9fea2eae"
+  ]
+}

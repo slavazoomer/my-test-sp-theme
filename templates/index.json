@@ -1,69 +1,1171 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "8809735a-30d2-441a-8ddb-1d7330ec074a": {
+      "type": "video-hero",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/81cc8cdd93904b6ead12d79bf01834f5.mp4",
+        "text_box_position": "bottom-left",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "250px",
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 16,
+        "padding_bottom": 12
+      }
+    },
+    "hero_banner_update_hFjDEm": {
+      "type": "hero-banner-update",
+      "blocks": {
+        "homepage_banner_qbPMW3": {
+          "type": "homepage_banner",
+          "settings": {
+            "left_background": "#dfdae7",
+            "banner_title": "Clean & Fresh. <br> Inside Out.",
+            "banner_above_title": "Tagline Here",
+            "banner_below_title": "Natural ingredients to keep you and your home healthy. <br> Shop products to spark 3 senses: Smell, Touch and Feel.",
+            "button_url": "shopify:\/\/collections\/all-1",
+            "button_text": "Shop Now",
+            "banner_background": "shopify:\/\/shop_images\/bbce82d8aebdd4877d522d58f2a3929f.png",
+            "review_image": "shopify:\/\/shop_images\/df519ce2df8f59cc149540ed6b2fd6a6.png",
+            "review_titles": "Review Title",
+            "review_text": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...”",
+            "review_url": "https:\/\/www.cleanbeauty.com\/products\/clean-classic-spring-breeze",
+            "badge_text": "Lorem Ipsum|Lorem Ipsum|Lorem Ipsum|Lorem Ipsum|Lorem Ipsum",
+            "badge_images": "https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/a23afbe4428578983c6f233c1278c283.png?v=1712647132|https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/a23afbe4428578983c6f233c1278c283.png?v=1712647132|https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/a23afbe4428578983c6f233c1278c283.png?v=1712647132|https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/a23afbe4428578983c6f233c1278c283.png?v=1712647132|https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/a23afbe4428578983c6f233c1278c283.png?v=1712647132"
+          }
+        },
+        "homepage_banner_KPgaBt": {
+          "type": "homepage_banner",
+          "settings": {
+            "left_background": "#f6fafb",
+            "banner_title": "Clean & Fresh. <br> Inside Out.",
+            "banner_above_title": "Tagline Here",
+            "banner_below_title": "Natural ingredients to keep you and your home healthy. <br> Shop products to spark 3 senses: Smell, Touch and Feel.",
+            "button_url": "shopify:\/\/collections\/all-1",
+            "button_text": "Shop Now",
+            "banner_background": "shopify:\/\/shop_images\/8951c6b0649b21c6750c3e431a37b6e8.png",
+            "review_image": "shopify:\/\/shop_images\/78e094aecc20d71df4bf4d5764a10987.png",
+            "review_titles": "Review Title",
+            "review_text": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...”",
+            "review_url": "https:\/\/www.cleanbeauty.com\/products\/clean-classic-spring-breeze",
+            "badge_text": "Lorem Ipsum|Lorem Ipsum|Lorem Ipsum|Lorem Ipsum|Lorem Ipsum",
+            "badge_images": "https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/a23afbe4428578983c6f233c1278c283.png?v=1712647132|https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/a23afbe4428578983c6f233c1278c283.png?v=1712647132|https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/a23afbe4428578983c6f233c1278c283.png?v=1712647132|https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/a23afbe4428578983c6f233c1278c283.png?v=1712647132|https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/a23afbe4428578983c6f233c1278c283.png?v=1712647132"
+          }
+        }
+      },
+      "block_order": [
+        "homepage_banner_qbPMW3",
+        "homepage_banner_KPgaBt"
+      ],
+      "settings": {
+      }
+    },
+    "de5b9547-785d-4880-8be8-edc06b064b0c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15258684129322__de5b9547-785d-4880-8be8-edc06b064b0c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "H2EAU Has Arrived",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "8123f0fb-1005-4768-874d-4458a0d5902c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A new collection of eco-conscious & sustainable fragrances inspired by water, nature’s most gentle ingredient. Offering clean, long-lasting, water-based perfumes that are gentle, hydrating and good for your skin.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--15258684129322__de5b9547-785d-4880-8be8-edc06b064b0c-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "EXPERIENCE H2EAU",
+            "button_link": "\/pages\/reserve-h2eau",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15258684129322__de5b9547-785d-4880-8be8-edc06b064b0c-heading-1",
+        "8123f0fb-1005-4768-874d-4458a0d5902c",
+        "template--15258684129322__de5b9547-785d-4880-8be8-edc06b064b0c-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#078f8f",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "50dafdd5-ec5d-42e5-8844-8a94a2ffea5f": {
+      "type": "slideshow",
+      "blocks": {
+        "52223e50-61d9-4551-bce1-0a5e10d06c47": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.1hp_SS.webp",
+            "image_mobile": "shopify:\/\/shop_images\/2.1hp_MBL_SS.webp",
+            "image_position": "center center",
+            "text_box_position": "bottom-right",
+            "subheading": "CLEAN RESERVE",
+            "subheading_size": "h5",
+            "heading": "Sparkling Sugar",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "This fun & flirty fragrance is irresistibly sweet, but not too sweet.",
+            "text_size": "typeset",
+            "button_label": "SHOP SPARKLING SUGAR",
+            "button_link": "shopify:\/\/products\/clean-reserve-sparkling-sugar",
+            "secondary_button_label": "",
+            "secondary_button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "90aa8634-3e13-418f-b2cc-f02a9f1378aa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.1hpmusknoir_4affe892-7cd0-4260-a40e-317bad5680ce.webp",
+            "image_mobile": "shopify:\/\/shop_images\/2.1hp_mbl_musknoir.webp",
+            "image_position": "center center",
+            "text_box_position": "top-left",
+            "subheading": "CLEAN RESERVE H2EAU",
+            "subheading_size": "h5",
+            "heading": "Musk Noir",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "An intoxicating potion of rich vanilla, patchouli and sandalwood cast an unforgettable spell.",
+            "text_size": "typeset",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/musk-noir",
+            "secondary_button_label": "",
+            "secondary_button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "3b84bf69-1473-4f20-aa2e-9e247c32393e": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fragrancesalebanner.webp",
+            "image_mobile": "shopify:\/\/shop_images\/mblfragrancesalebanner.webp",
+            "image_position": "center center",
+            "text_box_position": "top-right",
+            "subheading": "Through 1\/27",
+            "subheading_size": "h5",
+            "heading": "FRAGRANCE SALE!",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "10% off Select Fragrances.\nSale prices are as marked.",
+            "text_size": "typeset",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/sale",
+            "secondary_button_label": "",
+            "secondary_button_link": "\/pages\/skincare-collection-page",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "d086177f-9c41-4b3a-a8a9-b2ed84299d95": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rewardhpbanner5.webp",
+            "image_mobile": "shopify:\/\/shop_images\/rewardhpbanner5mbl.webp",
+            "image_position": "center center",
+            "text_box_position": "top-left",
+            "subheading": "Introducing",
+            "subheading_size": "h5",
+            "heading": "Clean & Conscious Rewards",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "We've launched a loyalty rewards program! Earn points and redeem them for rewards!",
+            "text_size": "typeset",
+            "button_label": "Learn More and Sign Up Now!",
+            "button_link": "shopify:\/\/pages\/rewards",
+            "secondary_button_label": "",
+            "secondary_button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "52223e50-61d9-4551-bce1-0a5e10d06c47",
+        "90aa8634-3e13-418f-b2cc-f02a9f1378aa",
+        "3b84bf69-1473-4f20-aa2e-9e247c32393e",
+        "d086177f-9c41-4b3a-a8a9-b2ed84299d95"
+      ],
+      "settings": {
+        "slideshow_type": "legacy",
+        "text_alignment": "left",
+        "image_ratio": "750px",
+        "autorotate": true,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "adapt_first",
+        "show_text_below": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#a8636c",
+        "colors_text": "#434242",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 80,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#212326",
+        "padding_top": 20,
+        "padding_bottom": 16
+      }
+    },
+    "16962529065eb99317": {
+      "type": "apps",
+      "blocks": {
+        "c9088856-8903-476c-bee5-6657b8a12919": {
+          "type": "shopify:\/\/apps\/qr-code-hub\/blocks\/home_landing\/4500f4b8-8cd3-4443-9a62-c1d1d9888ad7",
+          "settings": {
+            "has_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "c9088856-8903-476c-bee5-6657b8a12919"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "8ae5738b-c871-48b0-871e-238e425a364f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14953802432554__8ae5738b-c871-48b0-871e-238e425a364f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fragrance.webp",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "button_label": "FRAGRANCE",
+            "button_link": "shopify:\/\/collections\/fragrance",
+            "button_style_secondary": true
+          }
+        },
+        "template--14953802432554__8ae5738b-c871-48b0-871e-238e425a364f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/crpShot_53_HSB_ALL_GRP_LS_Shot_53_HSB_ALL_GRP_LS_1367.webp",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "button_label": "HAIR, SKIN, & BODY",
+            "button_link": "shopify:\/\/collections\/hair-skin-body",
+            "button_style_secondary": true
+          }
+        },
+        "template--14953802432554__8ae5738b-c871-48b0-871e-238e425a364f-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/43_CLEANBEAUTY_CR_HOME__LIFESTYLE4_020_v2_CLNT_6b43882d-19c2-4ae5-8af9-5f5dbc42196a.png",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "button_label": "HOME",
+            "button_link": "shopify:\/\/collections\/clean-space",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14953802432554__8ae5738b-c871-48b0-871e-238e425a364f-column-1",
+        "template--14953802432554__8ae5738b-c871-48b0-871e-238e425a364f-column-2",
+        "template--14953802432554__8ae5738b-c871-48b0-871e-238e425a364f-column-3"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "center",
+        "show_divider": false,
+        "heading": "Shop By Collection",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "center",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_UT3mFY": {
+      "type": "rich-text",
+      "blocks": {
+        "custom_liquid_HwTMYT": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/CBC_LoyaltyIcons_Digital2023__Seed2.png?v=1700500656\" \n     width=\"60\" \n     height=\"60\" \/>"
+          }
+        },
+        "text_dBPqdk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sign up today to become a<strong> <\/strong><a href=\"\/pages\/rewards\" title=\"Rewards\"><strong>Clean & Conscious Rewards<\/strong><\/a> member and earn points on purchases to redeem for rewards!<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_zyjwgP": {
+          "type": "button",
+          "settings": {
+            "button_label": "JOIN NOW",
+            "button_link": "shopify:\/\/pages\/rewards",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_HwTMYT",
+        "text_dBPqdk",
+        "button_zyjwgP"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": true,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 4,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_UcRYWa": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<Center> <b> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/CBC_LoyaltyIcons_Digital2023__Seed2.png?v=1700500656\" \n     width=\"30\" \n     height=\"30\" \/>\nSign up today to become a  <a href=\"https:\/\/www.cleanbeauty.com\/pages\/rewards\">Clean & Conscious Rewards<\/a> member and earn points on purchases to redeem for rewards! <\/b><\/Center>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "rich-text-0": {
+      "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "Introducing: CLEAN RESERVE H2EAU",
+            "heading_size": "h1",
+            "heading_tag": "h2"
           }
         }
       },
-      "block_order": ["heading", "button"],
+      "block_order": [
+        "heading"
+      ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "text_alignment": "center",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": true,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 12,
+        "padding_bottom": 0
       }
     },
-    "featured_collection": {
+    "57c6d556-9287-44fc-aa25-9b9d7d3e493b": {
+      "type": "image-with-text",
+      "blocks": {
+        "dfc63452-bdff-4d24-8977-8c72911fce81": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/02_Brilliantpeony_Zeta_237.jpg?v=1702235898>"
+          }
+        },
+        "template--14894811349034__57c6d556-9287-44fc-aa25-9b9d7d3e493b-167753285511761991-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CLEAN RESERVE H2EAU",
+            "heading_size": "h0",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14894811349034__57c6d556-9287-44fc-aa25-9b9d7d3e493b-167753285511761991-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>Clean, long-lasting, water-based perfumes that are gentle and hydrating to the skin.<\/p><p><\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--14894811349034__57c6d556-9287-44fc-aa25-9b9d7d3e493b-167753285511761991-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP H2EAU",
+            "button_link": "\/pages\/reserve-h2eau",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "6438a448-5e0b-4b42-8c59-2ce8526eb4c2": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "\/blogs\/why-clean\/explore-the-new-wave-in-fragrance-clean-reserve-h2eau",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "dfc63452-bdff-4d24-8977-8c72911fce81",
+        "template--14894811349034__57c6d556-9287-44fc-aa25-9b9d7d3e493b-167753285511761991-0",
+        "template--14894811349034__57c6d556-9287-44fc-aa25-9b9d7d3e493b-167753285511761991-1",
+        "template--14894811349034__57c6d556-9287-44fc-aa25-9b9d7d3e493b-167753285511761991-2",
+        "6438a448-5e0b-4b42-8c59-2ce8526eb4c2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/h2eau_han_hp.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#078f8f",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
+        "collection": "new-arrivals",
+        "products_to_show": 4,
         "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
+        "show_divider": false,
+        "heading": "What's New",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "image_position": "center center",
+        "enable_image_fill": true,
         "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
+        "secondary_image_max": 1,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 28,
         "padding_bottom": 36
+      }
+    },
+    "image-with-text-0": {
+      "type": "image-with-text",
+      "blocks": {
+        "129ccd73-31fe-4c8a-9851-d17a60d892d9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "CLEAN CLASSIC",
+            "subheading_size": "h3",
+            "secondary_color": false
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Skin",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hints of creamy vanilla and lotus blossom create the enticing scent of touchable bare skin. White musk and cashmere woods caress the skin with soft sensuality.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/clean-classic-skin",
+            "button_size": "medium",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "129ccd73-31fe-4c8a-9851-d17a60d892d9",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ccskinfebHP.webp",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "200px",
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#ffffff",
+        "colors_background": "#a8636c",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "video-hero": {
+      "type": "video-hero",
+      "blocks": {
+        "9de06709-59a3-4fa2-bfa8-c48b2b880b96": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP h2eau",
+            "button_link": "\/pages\/reserve-h2eau",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "9de06709-59a3-4fa2-bfa8-c48b2b880b96"
+      ],
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ac29ea568bcc4e67a1933d45b38f054a.mp4",
+        "text_box_position": "bottom-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "200px",
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "f192890d-38c6-4d68-bd82-bb67344e8d21": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"499708\" data-yotpo-product-id=\"{{product.id}}\" data-yotpo-cart-product-id=\"{{item.product.id}}\" data-yotpo-section-id=\"{{template.name}}\" data-yotpo-language-code=\"{{ localization.language.iso_code | escape }}\"><\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "8f4bb0c6-9d1f-46a6-8d70-9f8251491487": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\" src=\"https:\/\/cas.zma.gs\/61e0a1667826497cf6b95ca6\/ssr\/experiences\/63ee6291b6fc7c5ba727df8d\/init.js\"><\/script>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "slideshow_GTVfX9": {
+      "type": "slideshow",
+      "blocks": {
+        "image_VCqiHc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blueicons_link.webp",
+            "image_mobile": "shopify:\/\/shop_images\/mblblueicons_link_08306932-c474-45e3-9953-0b77ab797a37.webp",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset",
+            "button_label": "",
+            "button_link": "shopify:\/\/pages\/no-to-list",
+            "secondary_button_label": "",
+            "secondary_button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "image_VCqiHc"
+      ],
+      "settings": {
+        "slideshow_type": "modern",
+        "text_alignment": "left",
+        "image_ratio": "adapt_first",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt_first",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 0,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "693f2036-b080-44fd-822d-74f0e3088fa6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/Clean_Beauty_Collective_Inc_SEAL_e05fb6e6-1123-42b3-a185-802868cbd14d.jpg?v=1677527622\"\/>"
+          }
+        },
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "SIMPLE. TRUSTED. CONSCIOUS.",
+            "subheading_size": "h4",
+            "secondary_color": false
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "We are CLEAN BEAUTY COLLECTIVE.",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re proud to say that we’ve been setting the standard for world-class CLEAN fragrances since 2003. Discover our eco-conscious and sustainable scents that put people and the planet first. <\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Our Collections",
+            "button_link": "shopify:\/\/pages\/shop",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "693f2036-b080-44fd-822d-74f0e3088fa6",
+        "subheading",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shot1_CC_Original_20230207_CBC-SPRINGDIGI2175_square_fe911e18-a0b3-4581-a005-a30b5d1dadce.webp",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "center",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "no_image",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "adapt",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "dab898ab-fe25-4cf6-a95c-9f8e2758cbb4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14894811349034__dab898ab-fe25-4cf6-a95c-9f8e2758cbb4-1677521018d15cfe0b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Featured Product of the Month",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--14894811349034__dab898ab-fe25-4cf6-a95c-9f8e2758cbb4-1677521018d15cfe0b-0"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "featured-product": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2",
+            "title_tag": "h2",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "353e7df0-ba62-4fe2-8d13-d07573cda311": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"499713\" data-yotpo-product-id=\"{{product.id}}\" data-yotpo-cart-product-id=\"{{item.product.id}}\" data-yotpo-section-id=\"{{template.name}}\"><\/div>"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": false,
+            "picker_type": "button",
+            "enable_color_swatches": false,
+            "swatch_type": "round",
+            "size_chart": ""
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "heading": "Hurry up ! Sale end in:",
+            "number_size": "compact",
+            "colors_heading": "#da3f3f",
+            "colors_text": "#da3f3f",
+            "colors_background": "#ffeeee"
+          }
+        },
+        "cd87a87e-12d5-42b1-9aff-fcc8f1c81845": {
+          "type": "collapsible_description",
+          "settings": {
+            "icon": "none",
+            "heading": "Description"
+          }
+        },
+        "collapsible_tab-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Sustainability",
+            "content": "<p>{{ section.settings.product.metafields.custom_fields.sustainability.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "read_more": {
+          "type": "read_more",
+          "settings": {
+            "show_icon": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 20,
+            "show_inventory_transfer": true,
+            "color_scheme": "accent-3"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "353e7df0-ba62-4fe2-8d13-d07573cda311",
+        "rating",
+        "price",
+        "variant_picker",
+        "countdown",
+        "cd87a87e-12d5-42b1-9aff-fcc8f1c81845",
+        "collapsible_tab-1",
+        "read_more",
+        "buy_buttons",
+        "inventory_status",
+        "share"
+      ],
+      "settings": {
+        "product": "buriti-hydrating-body-lotion-1",
+        "layout": "media_first",
+        "full_width": false,
+        "show_divider": false,
+        "hide_variants": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "image_ratio": "adapt_first",
+        "image_position": "center center",
+        "enable_layered_images": true,
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "9288e41c-906f-4345-84a4-da8f709376ef": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14894811349034__9288e41c-906f-4345-84a4-da8f709376ef-1680539726b3af0249-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Beautiful Fragrances for your Body & Home",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14894811349034__9288e41c-906f-4345-84a4-da8f709376ef-1680539726b3af0249-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We put safety first, are mindful of the planet and tap the finest perfumers around the world to bring you beautiful fragrances. It’s been part of our green ethos since we started — always has been, always will be.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14894811349034__9288e41c-906f-4345-84a4-da8f709376ef-1680539726b3af0249-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "OUr Story",
+            "button_link": "shopify:\/\/pages\/our-story",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14894811349034__9288e41c-906f-4345-84a4-da8f709376ef-1680539726b3af0249-0",
+        "template--14894811349034__9288e41c-906f-4345-84a4-da8f709376ef-1680539726b3af0249-1",
+        "template--14894811349034__9288e41c-906f-4345-84a4-da8f709376ef-1680539726b3af0249-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/05_Musknoir_Aliya_022.webp",
+        "image_position": "20% 50%",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#54565b",
+        "colors_text": "#ffffff",
+        "colors_background": "#a8636c",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>For perfume addicts who are also ecologically minded, Clean Reserve makes sustainable fragrances that you can layer and mix to create unique scents in your home”<\/p>",
+            "image": "shopify:\/\/shop_images\/VOGUE_resize.png",
+            "author": "Vogue"
+          }
+        },
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>I can't praise Clean Reserve enough, and while it might not be the most actively talked about brand in the fragrance industry, every amazing-smelling person I know has a signature scent from the brand they can't get enough of.”<\/p>",
+            "image": "shopify:\/\/shop_images\/Whoww_resize.png",
+            "author": "Who What Wear"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Clean Reserve not only formulates their scents to meet the Clean at Sephora standards, but they also package and create their products with sustainability in mind. You’ll love having this perfume in your rotation, especially for daytime in the spring and summer.”<\/p>",
+            "image": "shopify:\/\/shop_images\/elle_resize.png",
+            "author": "Elle"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Clean Reserve designs all of its exquisite scents with the finest, clean beauty ingredients. It uses both sustainably sourced plants and tried-and-true synthetics that always put the environment first. The company never tests on animals, the products are gluten-free and packaged in recyclable bottles.\"<\/p>",
+            "image": "shopify:\/\/shop_images\/ethos_resize.png",
+            "author": "Ethos"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-0",
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3"
+      ],
+      "settings": {
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "hide_images": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "b313ac33-0577-474f-9b78-85e42d0936f7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14894811349034__b313ac33-0577-474f-9b78-85e42d0936f7-1681917827d0cfdfa2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW ALL PRESS",
+            "button_link": "shopify:\/\/pages\/press",
+            "button_size": "medium",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14894811349034__b313ac33-0577-474f-9b78-85e42d0936f7-1681917827d0cfdfa2-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": true,
+        "narrow": true,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "f737d293-98a6-4a8b-aca8-249a0db22baa": {
+      "type": "featured-blog",
+      "blocks": {
+        "template--14894811349034__f737d293-98a6-4a8b-aca8-249a0db22baa-16777725567601b5f1-0": {
+          "type": "title",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comment_count": false
+          }
+        },
+        "template--14894811349034__f737d293-98a6-4a8b-aca8-249a0db22baa-16777725567601b5f1-1": {
+          "type": "summary",
+          "settings": {
+          }
+        },
+        "template--14894811349034__f737d293-98a6-4a8b-aca8-249a0db22baa-16777725567601b5f1-2": {
+          "type": "read_more",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14894811349034__f737d293-98a6-4a8b-aca8-249a0db22baa-16777725567601b5f1-0",
+        "template--14894811349034__f737d293-98a6-4a8b-aca8-249a0db22baa-16777725567601b5f1-1",
+        "template--14894811349034__f737d293-98a6-4a8b-aca8-249a0db22baa-16777725567601b5f1-2"
+      ],
+      "settings": {
+        "blog": "why-clean",
+        "post_limit": 3,
+        "show_view_all": true,
+        "show_divider": false,
+        "heading": "Why CLEAN Blog",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_image": true,
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "87de4171-781b-4f72-bc0d-e0c1141c4868": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div \n    class=\"social-widget-wrapper\" data-widget-id=\"54831\">\n    <\/div>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "social_widget_54830": {
+      "type": "social-widget",
+      "settings": {
+        "social_widget_id": "54830",
+        "social_product_id": "none",
+        "social_widget_type": "none"
       }
     }
   },
-  "order": ["image_banner", "featured_collection"]
+  "order": [
+    "8809735a-30d2-441a-8ddb-1d7330ec074a",
+    "hero_banner_update_hFjDEm",
+    "de5b9547-785d-4880-8be8-edc06b064b0c",
+    "50dafdd5-ec5d-42e5-8844-8a94a2ffea5f",
+    "16962529065eb99317",
+    "8ae5738b-c871-48b0-871e-238e425a364f",
+    "rich_text_UT3mFY",
+    "custom_liquid_UcRYWa",
+    "rich-text-0",
+    "57c6d556-9287-44fc-aa25-9b9d7d3e493b",
+    "featured-collection",
+    "image-with-text-0",
+    "video-hero",
+    "f192890d-38c6-4d68-bd82-bb67344e8d21",
+    "8f4bb0c6-9d1f-46a6-8d70-9f8251491487",
+    "slideshow_GTVfX9",
+    "image-with-text-1",
+    "dab898ab-fe25-4cf6-a95c-9f8e2758cbb4",
+    "featured-product",
+    "9288e41c-906f-4345-84a4-da8f709376ef",
+    "testimonials",
+    "b313ac33-0577-474f-9b78-85e42d0936f7",
+    "f737d293-98a6-4a8b-aca8-249a0db22baa",
+    "87de4171-781b-4f72-bc0d-e0c1141c4868",
+    "social_widget_54830"
+  ]
 }

@@ -1,4 +1,64 @@
 {
-  "sections": { "main": { "type": "main-404", "settings": {} } },
-  "order": ["main"]
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "ba6f48d8-1f02-4a07-ad05-2c2e404811f5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14946135081002__ba6f48d8-1f02-4a07-ad05-2c2e404811f5-168805875340e695f0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Oh no! Sorry, we don't seem to have that page",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14946135081002__ba6f48d8-1f02-4a07-ad05-2c2e404811f5-168805875340e695f0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn more about our brand and shop all of our products<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14946135081002__ba6f48d8-1f02-4a07-ad05-2c2e404811f5-168805875340e695f0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/pages\/shop",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14946135081002__ba6f48d8-1f02-4a07-ad05-2c2e404811f5-168805875340e695f0-0",
+        "template--14946135081002__ba6f48d8-1f02-4a07-ad05-2c2e404811f5-168805875340e695f0-1",
+        "template--14946135081002__ba6f48d8-1f02-4a07-ad05-2c2e404811f5-168805875340e695f0-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ba6f48d8-1f02-4a07-ad05-2c2e404811f5"
+  ]
 }

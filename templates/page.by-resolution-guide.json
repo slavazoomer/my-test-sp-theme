@@ -1,0 +1,860 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": false,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "37b10408-eb77-431a-9d3f-ccbd2e7ec276": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14898295242794__37b10408-eb77-431a-9d3f-ccbd2e7ec276-1677596603e0d1fee7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CBC_October2023_Digital_H2EAU_NectarinePetal_03.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/CBC_October2023_Digital_H2EAU_NectarinePetal_03.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "A CLEAN 2024",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Stay motivated to achieve your 2024 goals with CLEAN! Find your New Year's resolution below, as well as the perfect CLEAN fragrance to keep you motivated all year long. Find Your Resolution Below.",
+            "text_size": "typeset",
+            "button_label": "",
+            "button_link": "",
+            "secondary_button_label": "",
+            "secondary_button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14898295242794__37b10408-eb77-431a-9d3f-ccbd2e7ec276-1677596603e0d1fee7-0"
+      ],
+      "settings": {
+        "slideshow_type": "legacy",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "300px",
+        "show_text_below": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 92,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f2242d5b-4cdd-46f1-a52b-0f279509480d": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14898295242794__f2242d5b-4cdd-46f1-a52b-0f279509480d-167759677190e24752-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Select your resolution",
+            "row_content": "<ul><li><a href=\"\/pages\/resolution-guide#vegan\" title=\"\/pages\/resolution-guide#vegan\">Go Vegan<\/a><\/li><li><a href=\"\/pages\/resolution-guide#ocean\" title=\"\/pages\/resolution-guide#ocean\">Save the Ocean<\/a><\/li><li><a href=\"\/pages\/resolution-guide#nature\" title=\"\/pages\/resolution-guide#nature\">Reconnect with nature<\/a><\/li><li><a href=\"\/pages\/resolution-guide#hobby\" title=\"\/pages\/resolution-guide#hobby\">Master a creative hobby<\/a><\/li><li><a href=\"\/pages\/resolution-guide#sleep\" title=\"\/pages\/resolution-guide#sleep\">Sleep better<\/a><\/li><li><a href=\"\/pages\/resolution-guide#budget\" title=\"\/pages\/resolution-guide#budget\">Make a budget - and stick to it<\/a><\/li><li><a href=\"\/pages\/resolution-guide#water\" title=\"\/pages\/resolution-guide#water\">Drink more water<\/a><\/li><li><a href=\"\/pages\/resolution-guide#time\" title=\"\/pages\/resolution-guide#time\">Spend more time with loved ones<\/a><\/li><li><a href=\"\/pages\/resolution-guide#energy\" title=\"\/pages\/resolution-guide#energy\">Become more energetic<\/a><\/li><li><a href=\"\/pages\/resolution-guide#eat\" title=\"\/pages\/resolution-guide#eat\">Eat healthier<\/a><\/li><\/ul><p><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14898295242794__f2242d5b-4cdd-46f1-a52b-0f279509480d-167759677190e24752-0"
+      ],
+      "settings": {
+        "open_first_collapsible_row": false,
+        "narrow": false,
+        "show_divider": false,
+        "heading": "Resolutions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e0e623bd-541e-4192-ba77-631e61e9bc0e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span id=\"vegan\"><\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d1942e90-8ba6-407a-b799-74280fc6aa16": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14898295242794__d1942e90-8ba6-407a-b799-74280fc6aa16-1677599699d2ab64cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Go Vegan",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14898295242794__d1942e90-8ba6-407a-b799-74280fc6aa16-1677599699d2ab64cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready for Veganuary? We’re proud to say every CLEAN product is 100% vegan. Find inspiration in the whole collection!<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14898295242794__d1942e90-8ba6-407a-b799-74280fc6aa16-1677599699d2ab64cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/shop-all-products",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14898295242794__d1942e90-8ba6-407a-b799-74280fc6aa16-1677599699d2ab64cd-0",
+        "template--14898295242794__d1942e90-8ba6-407a-b799-74280fc6aa16-1677599699d2ab64cd-1",
+        "template--14898295242794__d1942e90-8ba6-407a-b799-74280fc6aa16-1677599699d2ab64cd-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/33A_CLEANBEAUTY_CR_SKIN_LIFESTYLE1_016_MAIN_v3_1_68abbd99-7f64-40e7-959f-971e7bf73d04.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "dd25b469-413f-4f74-b43c-453e164e6c7b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span id=\"sleep\"><\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "dd4ff72b-1615-406b-aa09-6cb425800fd5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14898295242794__dd4ff72b-1615-406b-aa09-6cb425800fd5-1677599699d2ab64cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sleep better",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14898295242794__dd4ff72b-1615-406b-aa09-6cb425800fd5-1677599699d2ab64cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sleep better this year by unwinding with the soothing notes of Bergamot, Jasmine, and Sandalwood CLEAN CLASSIC Soft Laundry.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14898295242794__dd4ff72b-1615-406b-aa09-6cb425800fd5-1677599699d2ab64cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/simply-clean",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14898295242794__dd4ff72b-1615-406b-aa09-6cb425800fd5-1677599699d2ab64cd-0",
+        "template--14898295242794__dd4ff72b-1615-406b-aa09-6cb425800fd5-1677599699d2ab64cd-1",
+        "template--14898295242794__dd4ff72b-1615-406b-aa09-6cb425800fd5-1677599699d2ab64cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CBC_June2023_Digital_60ml_SoftLaundry_01_SQUARE.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "35e57d4c-74cd-4cc2-b6b3-f189a4215faa": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span id=\"ocean\"><\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "85f07fe3-36c0-4ecc-ad7f-4300dd7eaf94": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14898295242794__85f07fe3-36c0-4ecc-ad7f-4300dd7eaf94-1677599699d2ab64cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Save the Ocean",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14898295242794__85f07fe3-36c0-4ecc-ad7f-4300dd7eaf94-1677599699d2ab64cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our CLEAN RESERVE H2EAU fragrance line helps support Earth Day Network's Protect Our Oceans campaign. CLEAN RESERVE H2EAU provides awareness<strong> <\/strong>to the importance of safeguarding our oceans and their inhabitants. This collection is a reminder of our responsibility to the ocean. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14898295242794__85f07fe3-36c0-4ecc-ad7f-4300dd7eaf94-1677599699d2ab64cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/h2eau",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14898295242794__85f07fe3-36c0-4ecc-ad7f-4300dd7eaf94-1677599699d2ab64cd-0",
+        "template--14898295242794__85f07fe3-36c0-4ecc-ad7f-4300dd7eaf94-1677599699d2ab64cd-1",
+        "template--14898295242794__85f07fe3-36c0-4ecc-ad7f-4300dd7eaf94-1677599699d2ab64cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CBC_November2023_Digital_H2EAU_EmeraldOasis_SQUARE_64c5a70f-d8b6-4403-8ecb-fb3da046deb1.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8c9f6b56-ed6d-45bb-8b50-dd3249aa3ec4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span id=\"nature\"><\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "89a725da-c4fb-48d9-aa74-9807714e2481": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14898295242794__89a725da-c4fb-48d9-aa74-9807714e2481-1677599699d2ab64cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reconnect with nature",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14898295242794__89a725da-c4fb-48d9-aa74-9807714e2481-1677599699d2ab64cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready to explore the great outdoors? Uplifting and fruity CLEAN CLASSIC Apple Blossom is the perfect companion!<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14898295242794__89a725da-c4fb-48d9-aa74-9807714e2481-1677599699d2ab64cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/apple-blossom",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14898295242794__89a725da-c4fb-48d9-aa74-9807714e2481-1677599699d2ab64cd-0",
+        "template--14898295242794__89a725da-c4fb-48d9-aa74-9807714e2481-1677599699d2ab64cd-1",
+        "template--14898295242794__89a725da-c4fb-48d9-aa74-9807714e2481-1677599699d2ab64cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/05_CLEANBEAUTY_CC_Lifestyle5_948_v2_CLNT.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c5f25800-dc0d-4428-a8ae-f73e4389432c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span id=\"hobby\"><\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "9e0e0592-8f5f-4cf1-8fd9-f2a819d160dc": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14898295242794__9e0e0592-8f5f-4cf1-8fd9-f2a819d160dc-1677599699d2ab64cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Master a Creative Hobby",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14898295242794__9e0e0592-8f5f-4cf1-8fd9-f2a819d160dc-1677599699d2ab64cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Spritz CLEAN RESERVE Sel Santal, a fragrance infused with energizing Mandarin and attention-grabbing Sandalwood, when you need to spark creativity. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14898295242794__9e0e0592-8f5f-4cf1-8fd9-f2a819d160dc-1677599699d2ab64cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/clean-reserve-sel-santal",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14898295242794__9e0e0592-8f5f-4cf1-8fd9-f2a819d160dc-1677599699d2ab64cd-0",
+        "template--14898295242794__9e0e0592-8f5f-4cf1-8fd9-f2a819d160dc-1677599699d2ab64cd-1",
+        "template--14898295242794__9e0e0592-8f5f-4cf1-8fd9-f2a819d160dc-1677599699d2ab64cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CBC_June2023_Digital_100ml_SelSantal_03_SQUARE_dc509799-4079-4bb8-8af0-86a5e372aa7b.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3e759e96-0781-429c-886c-06cbc031e7be": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span id=\"budget\"><\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "39cccd6c-b918-4b8a-a8bc-7290e2f3369a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14898295242794__39cccd6c-b918-4b8a-a8bc-7290e2f3369a-1677599699d2ab64cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Make a budget - and stick to it",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14898295242794__39cccd6c-b918-4b8a-a8bc-7290e2f3369a-1677599699d2ab64cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair the ultimate New Year's resolution with CLEAN RESERVE H2EAU's Waterfall, a delightful and revitalizing fragrance that encapsulates the feeling of a fresh start. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14898295242794__39cccd6c-b918-4b8a-a8bc-7290e2f3369a-1677599699d2ab64cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/waterfall",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14898295242794__39cccd6c-b918-4b8a-a8bc-7290e2f3369a-1677599699d2ab64cd-0",
+        "template--14898295242794__39cccd6c-b918-4b8a-a8bc-7290e2f3369a-1677599699d2ab64cd-1",
+        "template--14898295242794__39cccd6c-b918-4b8a-a8bc-7290e2f3369a-1677599699d2ab64cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/H2EAU_Hero_Standard_NoLogo_Waterfall_1.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2987a5c8-901e-448b-9163-fe3f72a2a4a1": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span id=\"water\"><\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c151e06d-2e13-4d0b-9955-d078ccb585cf": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14898295242794__c151e06d-2e13-4d0b-9955-d078ccb585cf-1677599699d2ab64cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Drink more water",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14898295242794__c151e06d-2e13-4d0b-9955-d078ccb585cf-1677599699d2ab64cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stay inspired to reach for your water bottle with CLEAN RESERVE Solar Bloom, a fragrance that helps fund a safe drinking water program in Haiti. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14898295242794__c151e06d-2e13-4d0b-9955-d078ccb585cf-1677599699d2ab64cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/clean-reserve-solar-bloom",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14898295242794__c151e06d-2e13-4d0b-9955-d078ccb585cf-1677599699d2ab64cd-0",
+        "template--14898295242794__c151e06d-2e13-4d0b-9955-d078ccb585cf-1677599699d2ab64cd-1",
+        "template--14898295242794__c151e06d-2e13-4d0b-9955-d078ccb585cf-1677599699d2ab64cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CBC_June2023_Digital_100ml_SolarBloom_02_SQUARE.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "450px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "280b24d7-121c-479f-9b37-6961b7ccfbaf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span id=\"time\"><\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "657c96a3-1372-4bd2-b2e3-49de364a7ebf": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14898295242794__657c96a3-1372-4bd2-b2e3-49de364a7ebf-1677599699d2ab64cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Spend more time with loved ones",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14898295242794__657c96a3-1372-4bd2-b2e3-49de364a7ebf-1677599699d2ab64cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enhance the comfortable, feel-good atmosphere spending time with those close to you creates by spraying the nostalgic and familiar scent of CLEAN CLASSIC Warm Cotton. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14898295242794__657c96a3-1372-4bd2-b2e3-49de364a7ebf-1677599699d2ab64cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/clean-classic-warm-cotton",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14898295242794__657c96a3-1372-4bd2-b2e3-49de364a7ebf-1677599699d2ab64cd-0",
+        "template--14898295242794__657c96a3-1372-4bd2-b2e3-49de364a7ebf-1677599699d2ab64cd-1",
+        "template--14898295242794__657c96a3-1372-4bd2-b2e3-49de364a7ebf-1677599699d2ab64cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CBC_March2023_Digital_WarmCotton_60ml_03_square.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "12320814-b20a-487a-b06b-f8a81dfd7232": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span id=\"energy\"><\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "204ebcf8-2467-44d9-9b77-ef88535b249d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14898295242794__204ebcf8-2467-44d9-9b77-ef88535b249d-1677599699d2ab64cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become more energetic",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14898295242794__204ebcf8-2467-44d9-9b77-ef88535b249d-1677599699d2ab64cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CLEAN RESERVE H2EAU Golden Citrus's sunny notes of mandarin and bergamot coupled with a clean water accord revitalize the senses. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14898295242794__204ebcf8-2467-44d9-9b77-ef88535b249d-1677599699d2ab64cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/golden-citrus",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14898295242794__204ebcf8-2467-44d9-9b77-ef88535b249d-1677599699d2ab64cd-0",
+        "template--14898295242794__204ebcf8-2467-44d9-9b77-ef88535b249d-1677599699d2ab64cd-1",
+        "template--14898295242794__204ebcf8-2467-44d9-9b77-ef88535b249d-1677599699d2ab64cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CBC_October2023_Digital_H2EAU_GoldenCitrus_02_SQUARE.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7ac8a52f-8ac7-4f1b-9807-83e254f9ecc3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span id=\"eat\"><\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "291ac64b-c370-4b24-9f06-5acc8f3be9bc": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14898295242794__291ac64b-c370-4b24-9f06-5acc8f3be9bc-1677599699d2ab64cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Eat healthier",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14898295242794__291ac64b-c370-4b24-9f06-5acc8f3be9bc-1677599699d2ab64cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Swap candy for fresh fruits to satisfy your sweet tooth in 2024. Juicy mandarins and succulent figs, fruits captured in the bold CLEAN RESERVE Citron Fig, are addictive options. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14898295242794__291ac64b-c370-4b24-9f06-5acc8f3be9bc-1677599699d2ab64cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/clean-reserve-citron-fig",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14898295242794__291ac64b-c370-4b24-9f06-5acc8f3be9bc-1677599699d2ab64cd-0",
+        "template--14898295242794__291ac64b-c370-4b24-9f06-5acc8f3be9bc-1677599699d2ab64cd-1",
+        "template--14898295242794__291ac64b-c370-4b24-9f06-5acc8f3be9bc-1677599699d2ab64cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shot_37_Citron_Fig_mbl.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1b3da712-4a12-4d14-9c52-7b70919e034f": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<span id=\"planet\"><\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0943e1b0-b7e2-44ce-9f93-ad0760be22fd": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14898295242794__0943e1b0-b7e2-44ce-9f93-ad0760be22fd-1677599699d2ab64cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Save the planet",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14898295242794__0943e1b0-b7e2-44ce-9f93-ad0760be22fd-1677599699d2ab64cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This fragrance help support Earth Day Network's Protect Our Species campaign. CLEAN RESERVE Sparkling Sugar provides awareness of endangered ladybugs. This fragrance is a reminder of our responsibility to the environment. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14898295242794__0943e1b0-b7e2-44ce-9f93-ad0760be22fd-1677599699d2ab64cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/clean-reserve-sparkling-sugar",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14898295242794__0943e1b0-b7e2-44ce-9f93-ad0760be22fd-1677599699d2ab64cd-0",
+        "template--14898295242794__0943e1b0-b7e2-44ce-9f93-ad0760be22fd-1677599699d2ab64cd-1",
+        "template--14898295242794__0943e1b0-b7e2-44ce-9f93-ad0760be22fd-1677599699d2ab64cd-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/07_CLEANBEAUTY_CR_Lifestyle2040_v2_CLNT_b68f16b6-a305-471a-862c-1142d8653d43.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "37b10408-eb77-431a-9d3f-ccbd2e7ec276",
+    "f2242d5b-4cdd-46f1-a52b-0f279509480d",
+    "e0e623bd-541e-4192-ba77-631e61e9bc0e",
+    "d1942e90-8ba6-407a-b799-74280fc6aa16",
+    "dd25b469-413f-4f74-b43c-453e164e6c7b",
+    "dd4ff72b-1615-406b-aa09-6cb425800fd5",
+    "35e57d4c-74cd-4cc2-b6b3-f189a4215faa",
+    "85f07fe3-36c0-4ecc-ad7f-4300dd7eaf94",
+    "8c9f6b56-ed6d-45bb-8b50-dd3249aa3ec4",
+    "89a725da-c4fb-48d9-aa74-9807714e2481",
+    "c5f25800-dc0d-4428-a8ae-f73e4389432c",
+    "9e0e0592-8f5f-4cf1-8fd9-f2a819d160dc",
+    "3e759e96-0781-429c-886c-06cbc031e7be",
+    "39cccd6c-b918-4b8a-a8bc-7290e2f3369a",
+    "2987a5c8-901e-448b-9163-fe3f72a2a4a1",
+    "c151e06d-2e13-4d0b-9955-d078ccb585cf",
+    "280b24d7-121c-479f-9b37-6961b7ccfbaf",
+    "657c96a3-1372-4bd2-b2e3-49de364a7ebf",
+    "12320814-b20a-487a-b06b-f8a81dfd7232",
+    "204ebcf8-2467-44d9-9b77-ef88535b249d",
+    "7ac8a52f-8ac7-4f1b-9807-83e254f9ecc3",
+    "291ac64b-c370-4b24-9f06-5acc8f3be9bc",
+    "1b3da712-4a12-4d14-9c52-7b70919e034f",
+    "0943e1b0-b7e2-44ce-9f93-ad0760be22fd"
+  ]
+}

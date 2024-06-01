@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "narrow": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1697837520d8f3f667": {
+      "type": "apps",
+      "blocks": {
+        "17f5d6d5-7cc4-4a54-8e38-43aa779a0804": {
+          "type": "shopify:\/\/apps\/pandectes-gdpr-compliance\/blocks\/ccpa\/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+          "settings": {
+            "container_classes": "page-width page-width--narrow"
+          }
+        }
+      },
+      "block_order": [
+        "17f5d6d5-7cc4-4a54-8e38-43aa779a0804"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1697837520d8f3f667"
+  ]
+}

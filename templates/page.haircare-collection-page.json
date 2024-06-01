@@ -1,0 +1,382 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "40a0c2eb-0010-4a7a-9eb6-48bcf7705ab2": {
+      "type": "image-with-text",
+      "blocks": {
+        "563bc21c-48ce-458b-9c64-b7853ce818f1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "subheading_size": "h4",
+            "secondary_color": false
+          }
+        },
+        "template--14970175225898__40a0c2eb-0010-4a7a-9eb6-48bcf7705ab2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "CLEAN RESERVE Haircare",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14970175225898__40a0c2eb-0010-4a7a-9eb6-48bcf7705ab2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><\/h6><p>The best vegan, cruelty-free, Leaping Bunny and PETA certified, and free from harsh cleansing agents, sulfates, silicones, parabens, mineral oil, phthalates, and added fragrance haircare collection.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "text_gffCzR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Not sure where to begin? Take our <a href=\"https:\/\/cleanbeautycollective.outgrow.us\/cleanbeautycollective-65\" title=\"Hair skin and Body Quiz\"><strong>Hair, Skin, and Body Quiz<\/strong><\/a><strong> <\/strong><\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "563bc21c-48ce-458b-9c64-b7853ce818f1",
+        "template--14970175225898__40a0c2eb-0010-4a7a-9eb6-48bcf7705ab2-heading-1",
+        "template--14970175225898__40a0c2eb-0010-4a7a-9eb6-48bcf7705ab2-text-1",
+        "text_gffCzR"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shot25_HSB_HairGroupDNA_Shot25_HSB_HairGroupDNA_0722_square_dad77379-aab5-4964-a745-4d2719dc9176.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "500px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "300px",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "452da5b0-1ecf-420a-aa44-0538b670b667": {
+      "type": "bundle-products",
+      "blocks": {
+        "template--14970175225898__452da5b0-1ecf-420a-aa44-0538b670b667-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "buriti-tucuma-conditioner",
+            "image_ratio": "adapt",
+            "show_vendor": true,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 35,
+            "vertical": 35
+          }
+        },
+        "template--14970175225898__452da5b0-1ecf-420a-aa44-0538b670b667-product-3": {
+          "type": "product",
+          "settings": {
+            "product": "buriti-tucuma-shampoo",
+            "image_ratio": "adapt",
+            "show_vendor": true,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 53,
+            "vertical": 38
+          }
+        },
+        "template--14970175225898__452da5b0-1ecf-420a-aa44-0538b670b667-product-2": {
+          "type": "product",
+          "settings": {
+            "product": "dry-shampoo",
+            "image_ratio": "adapt",
+            "show_vendor": true,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 76,
+            "vertical": 61
+          }
+        }
+      },
+      "block_order": [
+        "template--14970175225898__452da5b0-1ecf-420a-aa44-0538b670b667-product-1",
+        "template--14970175225898__452da5b0-1ecf-420a-aa44-0538b670b667-product-3",
+        "template--14970175225898__452da5b0-1ecf-420a-aa44-0538b670b667-product-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hair2.23sq_9a99c87c-4235-436a-a05e-ec98027ab82f.jpg",
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "subheading": "CLEAN RESERVE HAIRCARE",
+        "subheading_size": "h5",
+        "heading": "Meet The Collection",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8ab6800c-ac94-484a-85ff-93eb5afae429": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15397621530666__8ab6800c-ac94-484a-85ff-93eb5afae429-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buriti & Tucuma Essential Shampoo",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--15397621530666__8ab6800c-ac94-484a-85ff-93eb5afae429-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CLEAN RESERVE Buriti & Tucuma Essential Shampoo is a sulfate-free and silicone-free formula that gently cleanses hair and scalp leaving hair soft, hydrated and voluminous.‌<\/p><p>An essential-oil blend provides a light energizing citrus scent. Gentle enough for everyday use. Formulated for all hair types.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "4db9dd73-a5fb-422f-aae4-66511403fcb5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ingredients and Sustainability:  CLEAN RESERVE Buriti & Tucuma Essential Shampoo is crafted with eco-conscious and sustainable Buriti Oil, Pequi Oil, and Tucuma Butter to help replenish natural oils while keeping hair soft, shiny, and moisturized. Tea Tree Leaf Oil formula helps remove and prevent buildup.‌<\/p><p>Always vegan and we never test on our furry friends. Our partnerships help improve the lives of the farmers and their communities who responsibly cultivate and harvest these sustainable ingredients with minimal impact on the planet.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--15397621530666__8ab6800c-ac94-484a-85ff-93eb5afae429-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY NOW",
+            "button_link": "shopify:\/\/products\/buriti-tucuma-shampoo",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15397621530666__8ab6800c-ac94-484a-85ff-93eb5afae429-heading-1",
+        "template--15397621530666__8ab6800c-ac94-484a-85ff-93eb5afae429-text-1",
+        "4db9dd73-a5fb-422f-aae4-66511403fcb5",
+        "template--15397621530666__8ab6800c-ac94-484a-85ff-93eb5afae429-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CR_H_B_AdVisual_1080x1350_Shampoo_Ingredients.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "500px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "d4ab7a92-9eff-4cdd-83b3-dc766542fa7a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15397621530666__d4ab7a92-9eff-4cdd-83b3-dc766542fa7a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buriti & Tucuma Essential Conditioner",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--15397621530666__d4ab7a92-9eff-4cdd-83b3-dc766542fa7a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CLEAN RESERVE Buriti & Tucuma Essential Conditioner is a sulfate-free and silicone-free formula that replenishes hair’s moisture without weighing it down, leaving hair smooth and shiny, all while helping support a balanced scalp microbiome.‌ <\/p><p>An essential-oil blend provides a light energizing citrus scent. Gentle enough for everyday use. Formulated for all hair types.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "895dfdb4-6b45-4ada-8615-00cba1015a1a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ingredients and Sustainability:  CLEAN RESERVE Buriti & Tucuma Essential Conditioner is crafted with eco-conscious and sustainable Buriti Oil, Pequi Oil, and Tucuma Butter.‌<\/p><p>Our partnerships help improve the lives of the farmers and their communities who responsibly cultivate and harvest these sustainable ingredients with minimal impact on the planet.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--15397621530666__d4ab7a92-9eff-4cdd-83b3-dc766542fa7a-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY NOW",
+            "button_link": "shopify:\/\/products\/buriti-tucuma-conditioner",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15397621530666__d4ab7a92-9eff-4cdd-83b3-dc766542fa7a-heading-1",
+        "template--15397621530666__d4ab7a92-9eff-4cdd-83b3-dc766542fa7a-text-1",
+        "895dfdb4-6b45-4ada-8615-00cba1015a1a",
+        "template--15397621530666__d4ab7a92-9eff-4cdd-83b3-dc766542fa7a-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CR-1012-CLEANBEAUTY-Conditioner-V1e_2498_sq.jpg",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "dc4323db-37d5-4ec1-892b-5951bc7c557a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15397621530666__dc4323db-37d5-4ec1-892b-5951bc7c557a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tapioca Dry Shampoo",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--15397621530666__dc4323db-37d5-4ec1-892b-5951bc7c557a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CLEAN RESERVE Tapioca Dry Shampoo is an ultra-lightweight and easily blendable dry shampoo that absorbs oils and removes dirt to leave hair looking instantly cleansed, refreshed, and voluminous.‌<\/p><p>An essential-oil blend provides a light energizing citrus scent. Gentle enough for everyday use. Formulated for all hair types.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "f34ff3ec-2766-4496-a096-61a5e0e00f15": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ingredients and Sustainability:  CLEAN RESERVE Tapioca Dry Shampoo is crafted with eco-conscious and sustainable Buriti Oil and Aloe. Tapioca Starch removes oil while Rice Starch instantly adds volume.‌<\/p><p>Our partnerships help improve the lives of the farmers and their communities who responsibly cultivate and harvest these sustainable ingredients with minimal impact on the planet.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--15397621530666__dc4323db-37d5-4ec1-892b-5951bc7c557a-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY NOW",
+            "button_link": "shopify:\/\/products\/dry-shampoo",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15397621530666__dc4323db-37d5-4ec1-892b-5951bc7c557a-heading-1",
+        "template--15397621530666__dc4323db-37d5-4ec1-892b-5951bc7c557a-text-1",
+        "f34ff3ec-2766-4496-a096-61a5e0e00f15",
+        "template--15397621530666__dc4323db-37d5-4ec1-892b-5951bc7c557a-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CBC_May2023_Digital_HSB_DryShampoo_02_SQUARE_cec2e7dd-72de-4098-a70e-9ab348b78cd5.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "500px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_4T7yHe": {
+      "type": "rich-text",
+      "blocks": {
+        "button_8nzYeg": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP ALL HAIRCARE",
+            "button_link": "shopify:\/\/collections\/hair",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "button_8nzYeg"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 12,
+        "padding_bottom": 16
+      }
+    }
+  },
+  "order": [
+    "main",
+    "40a0c2eb-0010-4a7a-9eb6-48bcf7705ab2",
+    "452da5b0-1ecf-420a-aa44-0538b670b667",
+    "8ab6800c-ac94-484a-85ff-93eb5afae429",
+    "d4ab7a92-9eff-4cdd-83b3-dc766542fa7a",
+    "dc4323db-37d5-4ec1-892b-5951bc7c557a",
+    "rich_text_4T7yHe"
+  ]
+}
