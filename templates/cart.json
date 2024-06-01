@@ -3,141 +3,24 @@
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
-        "show_vendor": true,
-        "padding_top": 60,
-        "padding_bottom": 12
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
-        "subtotal": {
-          "type": "subtotal",
-          "settings": {
-          }
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-          }
-        }
+        "subtotal": { "type": "subtotal", "settings": {} },
+        "buttons": { "type": "buttons", "settings": {} }
       },
-      "block_order": [
-        "subtotal",
-        "buttons"
-      ],
+      "block_order": ["subtotal", "buttons"],
       "settings": {
-        "show_cart_note": true,
-        "padding_top": 36,
-        "padding_bottom": 12
-      }
-    },
-    "b49f3b47-9c4c-4430-b3d5-211fc1db3e2d": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14974476714026__b49f3b47-9c4c-4430-b3d5-211fc1db3e2d-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Nurses, First Responders, and Students receive an exclusive discount with ID.me<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--14974476714026__b49f3b47-9c4c-4430-b3d5-211fc1db3e2d-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Verify with ID.me",
-            "button_link": "shopify:\/\/pages\/idme",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--14974476714026__b49f3b47-9c4c-4430-b3d5-211fc1db3e2d-text-1",
-        "template--14974476714026__b49f3b47-9c4c-4430-b3d5-211fc1db3e2d-button-1"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": true,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#168707",
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 8,
-        "padding_bottom": 8
-      }
-    },
-    "169393660201b2541d": {
-      "type": "apps",
-      "blocks": {
-        "e0ca51d8-a63d-46c3-86fd-1b310b858432": {
-          "type": "shopify:\/\/apps\/id-me-community-verification\/blocks\/app-block\/d5b94743-37bb-4030-bcb4-b96ef384609c",
-          "settings": {
-            "offer_copy": "Nurses, First Responders, and Students receive an exclusive discount with ID.me",
-            "fine_print": ""
-          }
-        }
-      },
-      "block_order": [
-        "e0ca51d8-a63d-46c3-86fd-1b310b858432"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_margins": true,
-        "show_divider": false,
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
-    },
-    "shipping-calculator": {
-      "type": "shipping-calculator",
-      "settings": {
-        "default_country": "United States",
-        "secondary_background": false,
-        "heading": "Estimate Shipping",
-        "heading_size": "h3",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "cart-recommendations": {
-      "type": "cart-recommendations",
-      "settings": {
-        "show_divider": false,
-        "heading": "You May Also Like",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "image_ratio": "portrait",
-        "image_position": "center center",
-        "enable_image_fill": false,
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "padding_top": 36,
-        "padding_bottom": 72
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 40
       }
     }
   },
-  "order": [
-    "cart-items",
-    "cart-footer",
-    "b49f3b47-9c4c-4430-b3d5-211fc1db3e2d",
-    "169393660201b2541d",
-    "shipping-calculator",
-    "cart-recommendations"
-  ]
+  "order": ["cart-items", "cart-footer"]
 }
