@@ -364,7 +364,7 @@ usf.templates = {
         <div class="card__badge">
             <span v-if="isSoldOut && usf.settings.search.showSoldOut" class="badge badge--soldout" aria-hidden="true" v-html="loc.soldOut"></span>
             <template v-else-if="hasDiscount && usf.settings.search.showSale">
-                <span class="badge badge--product" aria-hidden="true" v-html="loc.sale"></span>
+                <span class="badge badge--onsale" aria-hidden="true" v-html="loc.sale"></span>
             </template>
         </div>
         <div v-if="_usfGlobalSettings.quick_view_enabled && _usfSectionSettings.enable_quick_view" ref="usf-quick-view-drawer">

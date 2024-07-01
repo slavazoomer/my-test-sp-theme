@@ -1127,7 +1127,6 @@ product-gallery {
 }
 
 .product__media-item--variant:first-child {
-  position: relative;
   display: block;
 }
 
@@ -1212,10 +1211,6 @@ product-gallery {
 .product__media-item > * {
   display: block;
   position: relative;
-}
-
-.product__media-item .card__badge {
-  position: absolute;
 }
 
 product-gallery .product__media-toggle {

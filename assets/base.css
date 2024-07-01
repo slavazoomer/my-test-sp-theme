@@ -3063,12 +3063,10 @@ details[open].menu-opening > .header__icon--menu span {
   display: none;
 }
 
-.badge--product {
+.badge--onsale {
   color: rgb(var(--color-background));
-  background-color: rgb(var(--color-base-accent));
-  border-color: rgb(var(--color-base-accent));
-  font-weight: 700;
-  font-size: 1.2rem;
+  background-color: var(--color-sale-price);
+  border-color:var(--color-sale-price);
 }
 
 .icon-plus-alt {

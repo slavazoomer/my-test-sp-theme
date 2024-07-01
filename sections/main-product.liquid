@@ -144,27 +144,6 @@
                   {% if gang_exist == true %}data-gang-option="{{ gang_option_name }}" data-gang-connect="{{ gang_connect }}"{% endif %}
                 >
                   {% render 'product-image', media: featured_media, position: 'featured', zoom: section.settings.enable_image_zoom, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true, media_width: media_width, image_ratio: image_ratio, mobile_image_ratio: mobile_image_ratio, lazy_load: false %}
-                  <div class="card__badge">
-                    {%- if product.available == false -%}
-                      <span class="badge badge--soldout" aria-hidden="true">
-                        {{ 'products.product.sold_out' | t }}
-                      </span>
-                    {%- elsif product.compare_at_price > product.price -%}
-                      {%- assign on_sale_text = 'products.product.on_sale' | t -%}
-                      {%- if on_sale_text != blank -%}
-                       <span class="badge badge--product" aria-hidden="true">
-                          {{ 'products.product.on_sale' | t }}
-                        </span> 
-                      {%- endif -%}
-                    {%- else -%}
-                      {%- assign product_badge = product.metafields.clean_beauty.product_badge -%}
-                      {%- if product_badge != blank -%}
-                        <span class="badge badge--product" aria-hidden="true">
-                          {{ product_badge }}
-                        </span>
-                      {%- endif -%}
-                    {%- endif -%}
-                  </div>
                 </li>
               {%- endif -%}
               {%- for media in product.media -%}
