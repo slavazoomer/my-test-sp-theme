@@ -1,0 +1,31 @@
+<script>
+    document.addEventListener("DOMContentLoaded", (event) => {
+        // 'event': 'nav_interaction',
+        document.querySelectorAll('header.header a').forEach(link => {
+            link.addEventListener('click', () => {
+                console.log('clicked')
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                    'event': 'nav_interaction',
+                    'clickedLink': link.href
+                });
+            });
+        });
+    
+    
+        // 'event': 'hero_banner_interaction',
+        const firstSlideshow = document.querySelector('.slideshow');
+        if (firstSlideshow) {
+            firstSlideshow.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({
+                        'event': 'hero_banner_interaction',
+                        'clickedLink': link.href
+                    });
+                });
+            });
+        }
+    
+    });  
+    </script>

@@ -1,0 +1,27 @@
+{% comment %}
+  Renders the breadcrumb.
+
+  Accepts:
+  - text_style: {String} The text style
+  - show_divider: {String} Show devider
+  for pdp templates only
+  Usage:
+  {% render 'breadcrumbs' %}
+{% endcomment %}
+
+{%- unless template.name == 'index' or template.name == 'cart' -%}
+  <nav class="breadcrumb{% if text_style == 'uppercase' %} caption-with-letter-spacing{% elsif text_style == 'subtitle' %} subtitle{% endif %}{% if show_divider %} breadcrumb--divider{% endif %}" role="navigation" aria-label="breadcrumbs">
+    <a href="{{ routes.root_url }}" class="link" title="{{ 'general.breadcrumbs.home_link_title' | t }}">{{ 'general.breadcrumbs.home' | t }}</a>
+
+      <span class="breadcrumb__divider" aria-hidden="true">/</span>
+      {% for collection in product.collections %}
+        {% unless collection.handle == "all" %}
+          <a href="{{ collection.url }}" class="link" title="{{ collection.title }}">{{ collection.title }}</a>
+          {% break %}
+        {% endunless %}
+      {% endfor %}
+      <span class="breadcrumb__divider" aria-hidden="true">/</span>
+      <span>{{ product.title }}</span>
+
+  </nav>
+{%- endunless -%}

@@ -1,0 +1,463 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "40a0c2eb-0010-4a7a-9eb6-48bcf7705ab2": {
+      "type": "image-with-text",
+      "blocks": {
+        "563bc21c-48ce-458b-9c64-b7853ce818f1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "subheading_size": "h4",
+            "secondary_color": false
+          }
+        },
+        "template--14970175225898__40a0c2eb-0010-4a7a-9eb6-48bcf7705ab2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "CLEAN RESERVE Skincare",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14970175225898__40a0c2eb-0010-4a7a-9eb6-48bcf7705ab2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><\/h6><p>The best vegan, cruelty-free, Leaping Bunny and PETA certified, and free from silicones, parabens, mineral oil, phthalates, and added fragrance skincare collection.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "text_i3Pnek": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Not sure where to begin? Take our <a href=\"https:\/\/cleanbeautycollective.outgrow.us\/cleanbeautycollective-65\" title=\"Hair skin and Body Quiz\"><strong>Hair, Skin, and Body Quiz<\/strong><\/a><strong> <\/strong><\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "563bc21c-48ce-458b-9c64-b7853ce818f1",
+        "template--14970175225898__40a0c2eb-0010-4a7a-9eb6-48bcf7705ab2-heading-1",
+        "template--14970175225898__40a0c2eb-0010-4a7a-9eb6-48bcf7705ab2-text-1",
+        "text_i3Pnek"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/skincare.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "452da5b0-1ecf-420a-aa44-0538b670b667": {
+      "type": "bundle-products",
+      "blocks": {
+        "template--14970175225898__452da5b0-1ecf-420a-aa44-0538b670b667-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "buriti-balancing-cleanser",
+            "image_ratio": "adapt",
+            "show_vendor": true,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 30,
+            "vertical": 24
+          }
+        },
+        "template--14970175225898__452da5b0-1ecf-420a-aa44-0538b670b667-product-2": {
+          "type": "product",
+          "settings": {
+            "product": "buriti-soothing-moisturizer",
+            "image_ratio": "adapt",
+            "show_vendor": true,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 41,
+            "vertical": 57
+          }
+        },
+        "template--14970175225898__452da5b0-1ecf-420a-aa44-0538b670b667-product-3": {
+          "type": "product",
+          "settings": {
+            "product": "elderflower-mist",
+            "image_ratio": "adapt",
+            "show_vendor": true,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 53,
+            "vertical": 38
+          }
+        },
+        "2a7236d5-12fd-4472-96f4-5eff9d0726a9": {
+          "type": "product",
+          "settings": {
+            "product": "purple-clay-detoxifying-mask",
+            "image_ratio": "adapt",
+            "show_vendor": true,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 69,
+            "vertical": 82
+          }
+        }
+      },
+      "block_order": [
+        "template--14970175225898__452da5b0-1ecf-420a-aa44-0538b670b667-product-1",
+        "template--14970175225898__452da5b0-1ecf-420a-aa44-0538b670b667-product-2",
+        "template--14970175225898__452da5b0-1ecf-420a-aa44-0538b670b667-product-3",
+        "2a7236d5-12fd-4472-96f4-5eff9d0726a9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/skincare2.webp",
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "subheading": "CLEAN RESERVE SKINCARE",
+        "subheading_size": "h5",
+        "heading": "Meet The Collection",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8ab6800c-ac94-484a-85ff-93eb5afae429": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15397621530666__8ab6800c-ac94-484a-85ff-93eb5afae429-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buriti Balancing Cleanser",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--15397621530666__8ab6800c-ac94-484a-85ff-93eb5afae429-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CLEAN RESERVE Buriti Balancing Cleanser is an ultra-creamy cleanser that helps to remove impurities and leave your skin feeling clean, balanced, and hydrated.‌<\/p><p>AHA\/BHA Grape Extract blend to help exfoliate away dead cells and reveal glowing skin. <\/p><p>Gentle enough for sensitive skin.<\/p><p>Cleanses skin without stripping it of natural oils.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "4db9dd73-a5fb-422f-aae4-66511403fcb5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ingredients and Sustainability:  Buriti and pequi oils help keep skin supple. AHA\/BHA grape extract blend naturally exfoliates. Purple clay gently removes dirt, oil, and impurities.‌<\/p><p>Crafted with eco-conscious and sustainable Buriti Oil and Pequi Oil. Our partnerships help improve the lives of the farmers and their communities who responsibly cultivate and harvest these sustainable ingredients with minimal impact on the planet.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--15397621530666__8ab6800c-ac94-484a-85ff-93eb5afae429-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY NOW",
+            "button_link": "shopify:\/\/products\/buriti-balancing-cleanser",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15397621530666__8ab6800c-ac94-484a-85ff-93eb5afae429-heading-1",
+        "template--15397621530666__8ab6800c-ac94-484a-85ff-93eb5afae429-text-1",
+        "4db9dd73-a5fb-422f-aae4-66511403fcb5",
+        "template--15397621530666__8ab6800c-ac94-484a-85ff-93eb5afae429-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CBC_May2023_Digital_HSB_Cleanser_01_SQUARE.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "d4ab7a92-9eff-4cdd-83b3-dc766542fa7a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15397621530666__d4ab7a92-9eff-4cdd-83b3-dc766542fa7a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buriti Soothing Moisturizer",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--15397621530666__d4ab7a92-9eff-4cdd-83b3-dc766542fa7a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CLEAN RESERVE Buriti Soothing Moisturizer is a lightweight moisturizer that helps to replenish moisture and leave skin soothed, supple, and protected.‌<\/p><p>Fatty acid-rich Buriti Oil and Bilberry Seed Extract to help prevent water loss and strengthen skin barrier.<\/p><p>Gentle enough for sensitive skin.<\/p><p>Aloe helps reduce redness.‌<\/p><p>Antioxidant-rich ingredients protect your skin from free radicals.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "895dfdb4-6b45-4ada-8615-00cba1015a1a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ingredients and Sustainability:  Buriti and bilberry seed extract help prevent water loss and help support the skin barrier.‌<\/p><p>Crafted with eco-conscious and sustainable Buriti Oil and Bilberry Seed Extract.Our partnerships help improve the lives of the farmers and their communities who responsibly cultivate and harvest these sustainable ingredients with minimal impact on the planet.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--15397621530666__d4ab7a92-9eff-4cdd-83b3-dc766542fa7a-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY NOW",
+            "button_link": "shopify:\/\/products\/buriti-soothing-moisturizer",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15397621530666__d4ab7a92-9eff-4cdd-83b3-dc766542fa7a-heading-1",
+        "template--15397621530666__d4ab7a92-9eff-4cdd-83b3-dc766542fa7a-text-1",
+        "895dfdb4-6b45-4ada-8615-00cba1015a1a",
+        "template--15397621530666__d4ab7a92-9eff-4cdd-83b3-dc766542fa7a-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CR-1007-moisturizer-v1A_0869_sq.jpg",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "425f669f-4395-434d-ba18-983805dded3e": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15397621530666__425f669f-4395-434d-ba18-983805dded3e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Purple Clay Detoxifying Mask",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--15397621530666__425f669f-4395-434d-ba18-983805dded3e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CLEAN RESERVE Purple Clay Detoxifying Mask gently exfoliates skin without damaging it.‌<\/p><p>Purple clay gently removes dirt, oil, and impurities.‌<\/p><p>Biodegradable jojoba beads mildly exfoliate without stripping.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "cdfff08d-39cf-4a9b-8b07-9dc59b83e25e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ingredients and Sustainability:  Purple clay gently removes dirt, oil, and impurities. Biodegradable jojoba beads mildly exfoliate without stripping your skin. ‌<\/p><p>Our partnerships help improve the lives of the farmers and their communities who responsibly cultivate and harvest these sustainable ingredients with minimal impact on the planet.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--15397621530666__425f669f-4395-434d-ba18-983805dded3e-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY NOW",
+            "button_link": "shopify:\/\/products\/purple-clay-detoxifying-mask",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15397621530666__425f669f-4395-434d-ba18-983805dded3e-heading-1",
+        "template--15397621530666__425f669f-4395-434d-ba18-983805dded3e-text-1",
+        "cdfff08d-39cf-4a9b-8b07-9dc59b83e25e",
+        "template--15397621530666__425f669f-4395-434d-ba18-983805dded3e-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CBC_May2023_Digital_HSB_Mask_01_SQUARE.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "dc4323db-37d5-4ec1-892b-5951bc7c557a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15397621530666__dc4323db-37d5-4ec1-892b-5951bc7c557a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Elderflower Mist",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--15397621530666__dc4323db-37d5-4ec1-892b-5951bc7c557a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CLEAN RESERVE Elderflower Mist is a multitasking face mist that helps hydrate, tone, and balance, giving skin a dewy glow. <\/p><p>This versatile mist also sets makeup for that perfect finishing touch.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "f34ff3ec-2766-4496-a096-61a5e0e00f15": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ingredients: MOISTURIZES- Fatty acid-rich Buriti Oil and Avocado Oil help promote increased hydration to help keep skin supple and dewy.<\/p><p>BALANCES- Witch Hazel and probiotic Sophorolipids help control sebum and support a balanced skin microbiome.<\/p><p>TONES- Mildly astringent vitamin-filled Elderflower helps to refine the complexion.<\/p><p>SOOTHES- Calming Aloe helps reduce redness and sensitivity.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--15397621530666__dc4323db-37d5-4ec1-892b-5951bc7c557a-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY NOW",
+            "button_link": "shopify:\/\/products\/elderflower-mist",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15397621530666__dc4323db-37d5-4ec1-892b-5951bc7c557a-heading-1",
+        "template--15397621530666__dc4323db-37d5-4ec1-892b-5951bc7c557a-text-1",
+        "f34ff3ec-2766-4496-a096-61a5e0e00f15",
+        "template--15397621530666__dc4323db-37d5-4ec1-892b-5951bc7c557a-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FaceMist_Mist_Ingredients_025-1.jpg",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_4T7yHe": {
+      "type": "rich-text",
+      "blocks": {
+        "button_8nzYeg": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP ALL SKINCARE",
+            "button_link": "shopify:\/\/collections\/skincare",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "button_8nzYeg"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 12,
+        "padding_bottom": 16
+      }
+    }
+  },
+  "order": [
+    "main",
+    "40a0c2eb-0010-4a7a-9eb6-48bcf7705ab2",
+    "452da5b0-1ecf-420a-aa44-0538b670b667",
+    "8ab6800c-ac94-484a-85ff-93eb5afae429",
+    "d4ab7a92-9eff-4cdd-83b3-dc766542fa7a",
+    "425f669f-4395-434d-ba18-983805dded3e",
+    "dc4323db-37d5-4ec1-892b-5951bc7c557a",
+    "rich_text_4T7yHe"
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "breadcrumb": {
+          "type": "breadcrumb",
+          "disabled": true,
+          "settings": {
+            "text_style": "uppercase",
+            "show_divider": true
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "30302cee-c71c-4b23-a766-caba5766010e": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "heading": "Hurry up ! Sale end in:",
+            "number_size": "compact",
+            "colors_heading": "#da3f3f",
+            "colors_text": "#da3f3f",
+            "colors_background": "#ffeeee"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatch_type": "round",
+            "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible_tab-0": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "1. Collapsible tab",
+            "content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "2. Collapsible tab",
+            "content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 20,
+            "show_inventory_transfer": true,
+            "color_scheme": "accent-3"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb",
+        "vendor",
+        "title",
+        "30302cee-c71c-4b23-a766-caba5766010e",
+        "rating",
+        "price",
+        "countdown",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "collapsible_tab-0",
+        "collapsible_tab-1",
+        "inventory_status",
+        "share",
+        "related_buttons",
+        "sticky_cart"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "small",
+        "gallery_layout": "stacked",
+        "image_ratio": "adapt_first",
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "97c7e8cf-f656-41b5-9cf3-c56796aee9dc": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14891964563498__97c7e8cf-f656-41b5-9cf3-c56796aee9dc-167657682665e56896-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/packkets.jpg",
+            "title": "Step 1: Take the Plunge",
+            "title_size": "h3",
+            "text": "<p>Purchase your CLEAN RESERVE Hair, Skin, and Body Sample Set with seven samples.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--14891964563498__97c7e8cf-f656-41b5-9cf3-c56796aee9dc-167657682665e56896-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beaker_04567e3e-e0ca-4c9f-a4d6-2bd05e6d0eae.jpg",
+            "title": "Step 2: Play",
+            "title_size": "h3",
+            "text": "<p>Test out your new favorite Hair, Skin, and Body products.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--14891964563498__97c7e8cf-f656-41b5-9cf3-c56796aee9dc-167657682665e56896-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/money.jpg",
+            "title": "Step 3: Redeem",
+            "title_size": "h3",
+            "text": "<p>Found anything you like? We're offering you $10 to use toward your full size Hair, Skin, and Body purchase within 30 days!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14891964563498__97c7e8cf-f656-41b5-9cf3-c56796aee9dc-167657682665e56896-0",
+        "template--14891964563498__97c7e8cf-f656-41b5-9cf3-c56796aee9dc-167657682665e56896-1",
+        "template--14891964563498__97c7e8cf-f656-41b5-9cf3-c56796aee9dc-167657682665e56896-2"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "center",
+        "show_divider": false,
+        "heading": "How it Works",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "de5551d7-ea85-4fd6-8161-2e0d371e98a7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\" src=\"https:\/\/cas.zma.gs\/61e0a1667826497cf6b95ca6\/ssr\/groups\/63fe447b6df9f10f76c33e0e\/init.js\"><\/script>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "db6a3c0b-1aa0-43bb-af39-c26b6a1ee370": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14891964563498__db6a3c0b-1aa0-43bb-af39-c26b6a1ee370-16764760614c0661a5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Insider Tips",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14891964563498__db6a3c0b-1aa0-43bb-af39-c26b6a1ee370-16764760614c0661a5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If perfume is a science then wearing it is an art form. And while we all have our scent routines, there are a few definitive rules for optimal application and longer-lasting fragrance.<\/p><p>1. Store your fragrances at room temperature<\/p><p>2. Spritz your pulse points, hair, and heat zones on the body where the blood is closer to the skin. Think backs of knees and elbows. This encourages fragrances to unfold faster.<\/p><p>3. Dab, don't rub! This keep the perfume's nature chemistry in tact<\/p><p>4. Wearing more than one scent together creates a complete shift in the overall smell. Don't be afraid to try one or more together.<\/p><p>5. Remember, it's all about having fun and creating a new scent that suits you! <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14891964563498__db6a3c0b-1aa0-43bb-af39-c26b6a1ee370-16764760614c0661a5-0",
+        "template--14891964563498__db6a3c0b-1aa0-43bb-af39-c26b6a1ee370-16764760614c0661a5-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CLEAN_RESERVE_ACQUA_NEROLI_WITH_MODEL_IN_KITCHEN.jpg",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6043dbee-6423-4e5a-b8c1-63b48e402148": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14891964563498__6043dbee-6423-4e5a-b8c1-63b48e402148-16764760614c0661a5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Learn from Our Perfumers",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14891964563498__6043dbee-6423-4e5a-b8c1-63b48e402148-16764760614c0661a5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Layering is the art of creating your own personalized scent by combining two or more fragrances. New to this concept? We have you covered. Just as you choose clothes and accessories to put on each morning, you’ll now have a wardrobe of fragrances to mix and match finding your new signature scent (or scents)! Each CLEAN Fragrance is meant to be mixed, matched and layered with one another to create your own bespoke scent. Get ready for endless creations.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14891964563498__6043dbee-6423-4e5a-b8c1-63b48e402148-16764760614c0661a5-0",
+        "template--14891964563498__6043dbee-6423-4e5a-b8c1-63b48e402148-16764760614c0661a5-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CLEAN_RESERVE_ACQUA_NEROLI_TRAVEL_TRIO_SET.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ed4edd61-9665-4297-9267-f5fc19c1ef60": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14891964563498__ed4edd61-9665-4297-9267-f5fc19c1ef60-16764761461b8111a9-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rain_77a0ff9b-ac00-4195-a907-d2d331123135.jpg",
+            "title": "RESERVE Rain",
+            "title_size": "h3",
+            "text": "<p>\"Reserve Rain has a light, soft, pleasant floral smell that is not too strong or overpowering at all. Just the right amount of floral. They really nailed this one!\"<\/p><p>- Sunsetterxx<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--14891964563498__ed4edd61-9665-4297-9267-f5fc19c1ef60-16764761461b8111a9-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skin_800x_8c550c64-f633-41b1-b8af-b8e2ed10a1de.jpg",
+            "title": "RESERVE Skin",
+            "title_size": "h3",
+            "text": "<p>\"Hands down my favorite perfume!! The perfect blend of musk and the vanilla orchid. Smells incredible and lasts all day as well. I’ve gotten numerous compliments on this scent.\"<\/p><p>- Elizabeth<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--14891964563498__ed4edd61-9665-4297-9267-f5fc19c1ef60-16764761461b8111a9-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Acqua-Neroli_800x_3a0f2f63-2163-4710-843f-03619b652d77_2.jpg",
+            "title": "RESERVE Acqua Neroli",
+            "title_size": "h3",
+            "text": "<p>\"I love this fragrance and it has become my daily go-to. It's very fresh and uplifting. Definitely a favorite that you will never get tired of! :)\"<\/p><p>- Claudia<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14891964563498__ed4edd61-9665-4297-9267-f5fc19c1ef60-16764761461b8111a9-0",
+        "template--14891964563498__ed4edd61-9665-4297-9267-f5fc19c1ef60-16764761461b8111a9-1",
+        "template--14891964563498__ed4edd61-9665-4297-9267-f5fc19c1ef60-16764761461b8111a9-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "What People Are Saying",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>For perfume addicts who are also ecologically minded, Clean Reserve makes sustainable fragrances that you can layer and mix to create unique scents in your home”<\/p>",
+            "image": "shopify:\/\/shop_images\/VOGUE_resize.png",
+            "author": "VOUGE"
+          }
+        },
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Clean Reserve scents are luxurious and unique, and their bottles not only look chic, but are 100 percent recyclable, which is very rare for a perfume brand. My favourite is Rain [Reserve Blend], which is super fresh and clean.\"<\/p>",
+            "image": "shopify:\/\/shop_images\/bustle_resize.png",
+            "author": "Bustle"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Clean Reserve scents are luxurious and unique, and their bottles not only look chic, but are 100 percent recyclable, which is very rare for a perfume brand. My favourite is Rain [Reserve Blend], which is super fresh and clean.\"<\/p>",
+            "image": "shopify:\/\/shop_images\/elle_resize.png",
+            "author": "Elle"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Regrettably, a lot of contemporary perfumes are tested on animals or made with animal by-products, however, this line is vegan, eco-conscious and non-toxic.\"<\/p>",
+            "image": "shopify:\/\/shop_images\/w_mag_resize.png",
+            "author": "W Magazine"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-0",
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3"
+      ],
+      "settings": {
+        "autorotate": true,
+        "autorotate_speed": 5,
+        "hide_images": false,
+        "show_divider": false,
+        "heading": "As Featured In",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": false,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": false,
+        "enable_countdown": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "169531787473c87627": {
+      "type": "apps",
+      "blocks": {
+        "ba0420da-eaab-4742-8a23-1c4922902fa8": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "ba0420da-eaab-4742-8a23-1c4922902fa8"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "show_divider": false,
+        "heading": "Recently Viewed",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "72268f62-0180-4405-9180-9e8edddb4474": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\nwindow.addEventListener('load', function() {\nvar _learnq = window._learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}\/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price\/100,\n      $value: data.total_price\/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price\/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', cart]);\n        klAjax = false;\n      }\n  }))\n};\n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}\/cart\/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch));\nvar klAjax = true;\nvar atcButtons = document.querySelectorAll(\"form[action*='\/cart\/add'] button[type='submit']\");\nfor (var i = 0; i < atcButtons.length; i++) {\n    atcButtons[i].addEventListener(\"click\", function() {\n      if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', item]);\n        klAjax = false;\n      }\n    })\n}\n});\n<\/script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "97c7e8cf-f656-41b5-9cf3-c56796aee9dc",
+    "de5551d7-ea85-4fd6-8161-2e0d371e98a7",
+    "db6a3c0b-1aa0-43bb-af39-c26b6a1ee370",
+    "6043dbee-6423-4e5a-b8c1-63b48e402148",
+    "ed4edd61-9665-4297-9267-f5fc19c1ef60",
+    "testimonials",
+    "product-recommendations",
+    "169531787473c87627",
+    "recently-viewed-products",
+    "72268f62-0180-4405-9180-9e8edddb4474"
+  ]
+}

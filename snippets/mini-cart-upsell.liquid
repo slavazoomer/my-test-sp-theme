@@ -1,0 +1,307 @@
+{%liquid
+    assign productA = "clean-reserve-acqua-neroli,clean-reserve-skin,h2eau-discovery-gift-set,clean-reserve-warm-cotton,clean-reserve-sparkling-sugar"
+    assign productB = "clean-reserve-skin,clean-reserve-warm-cotton,reserve-discovery-gift-set,clean-reserve-rain,clean-reserve-skin"
+    assign productA_array = productA | split: ","
+    assign productB_array = productB | split: ","
+ %}
+{% style %}
+    .growthbook-test{
+        display: none;
+    }
+    .cart-drawer-upsell__item.hidden-item{
+        display: none;
+    }
+    .cart-drawer-upsell.empty-cart-upsell{
+        padding: 0;
+    }
+    .cart-drawer-upsell__item-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cart-drawer-upsell__item-atc-button add-to-cart:after{
+        display: none;
+    }
+    .cart-drawer-upsell__item-flex-outer{
+        display: flex;
+        column-gap: 1.5rem;
+    }
+    .cart-drawer-upsell__item-content{
+        width: 100%;
+    }
+    .cart-drawer-upsell__item-atc-button{
+        line-height: 1.0
+    }
+    .cart-drawer-upsell__item-atc-button .button--cta.button--small .label{
+        padding-inline-end: unset;
+    }
+
+    .cart-drawer-upsell__item-pairs-with{
+        display: flex;
+        flex-direction: column;
+    }
+    .cart-drawer-upsell__item-pairs-with .all-caps{
+        text-transform: uppercase;
+        font-family: 'Nunito Sans';
+        display: inline-block;
+        font-size: 9px;
+        color: #54565BD9;
+    }
+    /* unset min height on all media query */
+    .button--cta.button--small{
+        min-height: unset !important;
+    }
+    .cart-drawer-upsell__item-pairs-with .pairs-well-product{
+        font-family: 'Saol Display';
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .cart-drawer-upsell__item-pairs-with-variant div{
+        font-family: 'Nunito Sans';
+        font-size: 11px;
+        font-weight: 400
+    }
+    .cart-drawer-upsell-item.hidden-item{
+        display: none !important;
+    }
+    .cart-drawer-upsell{
+        background: #F5F5F5;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05) inset;
+    }
+    .cart-drawer-upsell + .mini-cart__footer{
+        padding-top: 0;
+    }
+    .cart-drawer-upsell__item-price-atc{
+        align-items: center;
+        font-size: 11px;
+    }
+    .cart-drawer-upsell__item-flex-outer .cart-drawer-upsell__item-img{
+        line-height: 1.0;
+        display: flex;
+        align-items: center;
+    }
+    .growthbook-test cart-recommendations{
+    display: block !important;
+    width: 100% !important;
+    position: unset !important;
+    height: auto !important;
+    background-color: white !important;
+    }
+    cart-recommendations.growthbook-cart-recommendations .price__compare{
+        display: none !important;
+    }
+    cart-recommendations.growthbook-cart-recommendations .price{
+        margin-top: 0 !important;
+    }
+    cart-recommendations.growthbook-cart-recommendations .price:after{
+        content: "+";
+    }
+    cart-recommendations.growthbook-cart-recommendations .product-description{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    cart-recommendations.growthbook-cart-recommendations price-money + price-money{
+        display: none !important;
+    }
+    cart-recommendations.growthbook-cart-recommendations .mini-cart__navigation li{
+        position: absolute;
+        max-width: 300px;    
+    }
+    cart-recommendations.growthbook-cart-recommendations .mini-cart__navigation{
+        padding-top: 10px !important;
+        padding-left: 20px !important;
+        padding-right: 0 !important;
+        padding-bottom: 10px !important;
+    }
+
+    @media screen and (min-width:750px){
+      cart-recommendations.growthbook-cart-recommendations .mini-cart__navigation li:first-child{
+      padding-top: 1.6rem
+    }
+
+    }
+    cart-recommendations.growthbook-cart-recommendations .mini-cart__navigation li:not(:first-child){
+      margin-left: 20px;
+    }
+    cart-recommendations.growthbook-cart-recommendations .caption-with-letter-spacing{
+      font-size: 9px;
+      font-family: 'Nunito Sans';
+    }
+    cart-recommendations.growthbook-cart-recommendations .link.product-title{
+      font-size: 12px;
+      font-family: "Saol Display";
+    }
+      cart-recommendations.growthbook-cart-recommendations .button--cta.button--small:before{
+      display: none !important;
+    }
+    .cart-recommendations.growthbook-cart-recommendations .title{
+      position: static !important;
+    }
+
+    cart-recommendations.growthbook-cart-recommendations .button--cta.button--small:after{
+      display: none;
+    }
+    cart-recommendations.growthbook-cart-recommendations .mini-cart__navigation .price{
+      width: 100%;
+    }
+    
+    cart-recommendations.growthbook-cart-recommendations .mini-cart__navigation .price dl{
+      margin-left: auto;
+    }
+    cart-recommendations.growthbook-cart-recommendations .button--small{
+      display: flex;
+      width: 100%
+    }
+    .cart-recommendations.growthbook-cart-recommendations .mini-cart__navigation .price, .cart-recommendations.growthbook-cart-recommendations .mini-cart__navigation .product-button .button, .cart-recommendations.growthbook-cart-recommendations .mini-cart__navigation .caption-with-letter-spacing+.product-content{
+      margin-top: 0;
+    }
+    .cart-recommendations.growthbook-cart-recommendations .mini-cart__navigation .product-button .button{
+      width: 100% !important;
+      height: auto !important;
+      box-shadow: unset !important;
+    }
+    .cart-recommendations.growthbook-cart-recommendations .mini-cart__navigation .product-button .button a{
+      margin-left: auto;
+    }
+    cart-recommendations.growthbook-cart-recommendationss .variant-size-wrapper span{
+      font-size: 11px;
+      line-height: 14px;
+    }
+    cart-recommendations.growthbook-cart-recommendations .title-span{
+      display: inline-block;
+      position: relative;
+      padding: 3rem 2rem 0;
+      width: 100%;
+    }
+    cart-recommendations.growthbook-cart-recommendations .title-span:after{
+      content: " ";
+      display: block;
+      border-bottom: 1px solid #D2D5D9;
+      width: 100%;
+      top: 35px;
+      left: 0;
+      z-index: 0;
+      position: absolute
+    }
+    .cart-recommendations.growthbook-cart-recommendations .title{
+      padding: 0;
+    }
+    cart-recommendations.growthbook-cart-recommendations .title-span-inner{
+      background-color: white;
+    }
+    cart-recommendations.growthbook-cart-recommendations .title-span-inner{
+      padding-left: 5px;
+      padding-right: 5px;
+      z-index: 2;
+      background-color: white;
+      position: relative;
+      display: inline-block;
+    }
+    cart-recommendations.growthbook-cart-recommendations .flickity-viewport{
+      position: static
+    }
+    cart-recommendations.growthbook-cart-recommendations .flickity-slider{
+      left: 3rem;
+    }
+
+    .cart-drawer-upsell__inner{
+      background-color: #F5F5F5;
+      margin-top: 1.6rem;
+      padding: 8px 0 10px 0;
+      position: relative;
+      box-shadow: 0 0 0 100vmax #F5F5F5;
+      clip-path: inset(0 -100vmax);
+    }
+
+{% endstyle %}
+<div class="cart-drawer-upsell growthbook-test">
+    <div class="cart-recommendations-wrapper">
+        <cart-recommendations class="cart-recommendations growthbook-cart-recommendations" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ cart.items.first.product_id }}&limit=4" data-animate data-animate-delay-{{ animate_count }}>
+            <div class="title h4">
+              <span class="title-span"><span class="title-span-inner">{{ settings.cart_recommendations_heading | escape }}</span></span>
+            </div>
+            <ul class="mini-cart__navigation">
+              {%- for recommendation in recommendations.products -%}
+                <li>
+                  <div class="product-container product-container--link{% unless recommendation.featured_media %} no-image{% endunless %}">
+                    {% if recommendation.featured_media %}
+                      <div class="product-image">
+                        <a href="{{ recommendation.url }}" class="media-wrapper media-wrapper--small">
+                          <div class="media media--adapt"
+                            style="--image-ratio-percent: {{ 1 | divided_by: recommendation.featured_media.aspect_ratio | times: 100 }}%;"
+                          >
+                            <img srcset="{{ recommendation.featured_media | image_url: width: 70 }} 1x, {{ recommendation.featured_media | image_url: width: 140 }} 2x"
+                              src="{{ recommendation.featured_media | image_url: width: 70 }}"
+                              alt="{{ recommendation.featured_media.alt | escape | split: '#' | first }}"
+                              width="70"
+                              height="{{ 70 | divided_by: recommendation.featured_media.aspect_ratio | ceil }}"
+                              loading="lazy"
+                              is="lazy-image"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    {% endif %}
+                    <div class="product-description">
+                        <div class="title-content-wrapper">
+                           {%- if settings.cart_recommendations_show_vendor -%} 
+                            <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
+                            <div class="caption-with-letter-spacing">{{ recommendation.vendor }}</div>
+                          {%- endif -%}
+                          <div class="product-content">
+                            <a href="{{ recommendation.url }}" class="link product-title">{{ recommendation.title }}</a>
+                          </div>
+                        </div>
+                        {%- if settings.cart_recommendations_show_price -%}
+                            {% render 'price', product: recommendation %}
+      
+
+                                <div class="variant-size-wrapper">
+                                    {% if recommendation.variants.size > 1 %}
+                                        <span>{{ recommendation.variants.size }} Sizes Available</span>
+                                    {% endif %}
+                                </div>
+                          
+                            <div class="product-button">
+                              {%- if recommendation.available and recommendation.variants.size == 1 -%}
+                                <add-to-cart class="button button--small button--cta" data-variant-id="{{ recommendation.selected_or_first_available_variant.id }}">
+                                  <span >
+                                    <span class="label">
+                                      {%- liquid
+                                        if recommendation.template_suffix != 'pre-order'
+                                          echo 'products.product.add_to_cart' | t
+                                        else
+                                          echo 'products.product.pre_order' | t
+                                        endif
+                                      -%}
+                                    </span>
+                                    +
+                                  </span>
+                                </add-to-cart>
+                              {%- else -%}
+                                <a href="{{ recommendation.url }}" class="button button--small button--cta" tabindex="-1">
+                                  <span>
+                                    <span class="label">
+                                      {%- liquid
+                                        if recommendation.available
+                                          echo 'Select Size'
+                                        else
+                                          echo 'products.product.view' | t
+                                        endif
+                                      -%}
+                                    </span>
+                                    +
+                                  </span>
+                                </a>
+                              {%- endif -%}
+                            </div>
+                          {%- endif -%}
+
+
+                    </div>
+                  </div>
+                </li>
+              {%- endfor -%}
+            </ul>
+          </cart-recommendations>
+    </div>
+</div>

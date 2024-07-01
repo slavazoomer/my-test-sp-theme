@@ -1,0 +1,454 @@
+/*
+Styles for "Clear For Me" ingredient data
+Adapted from https://snippet-st1.clearforme.com/style.css */
+
+/* Default global styling */
+
+
+:root {
+  --cfm-font-family: 'Platform-light-Web,sans-serif'; /*Add your font family*/
+  --cfm-main-bg-color: rgb(var(--color-base-accent)); /* Add your Main side drawer background color code*/
+  --cfm-main-text-color: #000000; /* Add your Main side drawer text color code*/
+  --cfm-component-bg-color: rgb(var(--color-base-accent)); /* Add your Main side drawer  Component heading Background color code*/
+  --cfm-component-text-color: #000000; /* Add your Main side drawer  Component heading text color code*/
+  --cfm-ing-modal-bg-color: rgb(var(--color-base-accent)); /* Add your Ingredient Information Modal Background color code*/
+  --cfm-ing-modal-text-color: #000000; /* Add your Ingredient Information Modal Text color code*/
+}
+
+/* Fix for yotpo testimonials being displayed over sidebar */
+.yotpo.testimonials {
+  z-index: 700 !important;
+}
+
+.clear-for-me-button {
+  color: rgb(var(--color-button-text));
+  background-color: rgb(var(--color-button-background));
+  padding: 15px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.clear-for-me-button svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ingredient-structure-container {
+  font-family: var(--cfm-font-family);
+}
+
+.stop-scroll {
+  overflow: hidden;
+}
+
+.cfm-default-container {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  line-height: 1.2;
+  color: var(--cfm-main-text-color);
+  font-size: 16px;
+  z-index: 800;
+}
+
+.cfm-default-container .top-panel {
+  margin-bottom: 25px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.cfm-default-container .powered-by {
+  align-self: flex-end;
+  font-size: 12px;
+}
+
+.cfm-default-container .powered-by a {
+  padding: 3px 5px 4px;
+  border-radius: 50px;
+  border: 1.5px solid var(--cfm-main-text-color);
+  font-size: 12px;
+}
+
+.cfm-default-container .powered-by img {
+  width: 50px;
+}
+
+.cfm-default-container .top-panel .close-icon-container {
+  margin-left: auto;
+}
+
+.cfm-ing-modal .top-panel {
+  margin-bottom: 15px;
+}
+
+.cfm-ing-modal .powered-by {
+  margin: 20px 0 0;
+  text-align: right;
+}
+
+.cfm-sku {
+  display: none;
+}
+
+.cfm-default-container p,
+.cfm-default-container span,
+.cfm-default-container h4,
+.cfm-default-container a {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  color: var(--cfm-main-text-color);
+  line-height: 1.4;
+}
+
+.cfm-default-container ul,
+.cfm-default-container li {
+  list-style-type: none;
+}
+
+.side-drawer a {
+  font-size: 16px;
+}
+
+/*===================================================================
+  Side Modal styling starts here
+===================================================================*/
+.side-drawer {
+  width: 40%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--cfm-main-bg-color);
+  box-shadow: 2px 1px 11px #ccc;
+  transition: left 0.3s ease-in-out;
+}
+
+.side-drawer-content {
+  --scrollbar-foreground: #333;
+  --scrollbar-background: #ddd;
+  /* Foreground, Background */
+  scrollbar-color: var(--scrollbar-foreground) var(--scrollbar-background);
+}
+.side-drawer-content::-webkit-scrollbar {
+  width: 10px; /* Mostly for vertical scrollbars */
+}
+.side-drawer-content::-webkit-scrollbar-thumb { /* Foreground */
+  background: var(--scrollbar-foreground);
+}
+.side-drawer-content::-webkit-scrollbar-track { /* Background */
+  background: var(--scrollbar-background);
+}
+
+.side-drawer img {
+  vertical-align: baseline !important;
+}
+
+@media screen and (max-width: 995px) {
+  .side-drawer {
+    width: 90%;
+  }
+}
+
+.hide-modal {
+  left: -100%;
+}
+
+.side-drawer-content {
+  height: 100%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.close-icon-container {
+  text-align: right;
+}
+
+.close-side-drawer svg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/*Side drawer content styling*/
+
+.modal-content h4 {
+  margin: 20px 0;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.modal-content .tap-to-learn-more {
+  margin: 20px 0 -10px;
+  display: block;
+}
+
+.modal-content .info-heading {
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.modal-content .ingredient-componet-container {
+  margin: 20px 0;
+}
+
+.modal-content .ingredient-componet-container .component-name {
+  padding: 15px 20px;
+  display: block;
+  background-color: var(--cfm-component-bg-color);
+  border-radius: 5px;
+  color: var(--cfm-component-text-color);
+}
+
+.modal-content .ingredient-componet-container .reduce-component-margin {
+  padding: 0;
+  margin: -12px 0 -5px;
+}
+
+.modal-content .function-group-container {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.modal-content .function-group-container ul {
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.modal-content .function-group-container li {
+  list-style-type: disclosure-closed;
+  line-height: 1.4;
+}
+
+.modal-content .function-group-container a {
+  position: relative;
+  text-decoration: none;
+}
+
+.modal-content .function-group-container > ul > li > a > sup {
+  position: absolute;
+}
+
+.modal-content .product-attributes {
+  margin-bottom: 20px;
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  margin: 0 auto;
+  border-radius: 50%;
+  border-top: 6px solid var(--cfm-main-text-color);
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  transform: translate(-50%, -50%);
+  animation: spin 1s linear infinite;
+  -webkit-animation: spin 1s linear infinite;
+  text-indent: -9999px;
+  /* Safari */
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hide-loader {
+  display: none;
+}
+
+.side-drawer-content .additional-details-content-cfm {
+  margin: 10px 0 30px;
+}
+
+.side-drawer-content .additional-details-content-cfm ul,
+.side-drawer-content .additional-details-content-cfm li {
+  list-style-type: disclosure-closed;
+  line-height: 1.4;
+}
+
+.side-drawer-content .additional-details-content-cfm ul,
+.side-drawer-content .additional-details-content-cfm p,
+.side-drawer-content .additional-details-content-cfm h1,
+.side-drawer-content .additional-details-content-cfm h2,
+.side-drawer-content .additional-details-content-cfm h3,
+.side-drawer-content .additional-details-content-cfm h4,
+.side-drawer-content .additional-details-content-cfm h5,
+.side-drawer-content .additional-details-content-cfm h6 {
+  margin: 10px;
+}
+
+/*===================================================================
+  Side Modal styling ends here
+===================================================================*/
+
+/*===================================================================
+  Ingredient Modal styling starts here
+===================================================================*/
+
+.cfm-ing-modal {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 1000;
+}
+
+.ing-modal-content-container {
+  width: 50%;
+  padding: 20px;
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--cfm-ing-modal-bg-color);
+  border-radius: 5px;
+  color: var(--cfm-ing-modal-text-color);
+  max-height: 80%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  text-indent: -999px;
+}
+
+.ing-content {
+  margin-top: 10px;
+  line-height: 1.2;
+  font-size: 16px;
+}
+
+.ing-content p,
+.ing-content span,
+.ing-content h4,
+.ing-modal-content-container .powered-by span,
+.ing-modal-content-container .powered-by a {
+  color: var(--cfm-ing-modal-text-color);
+  border-color: var(--cfm-ing-modal-text-color);;
+}
+
+.ing-content p {
+  word-break: break-word;
+}
+
+.ing-content h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.cfm-ing-info-container {
+  margin-bottom: 20px;
+}
+
+.cfm-ing-info-container span {
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.cfm-ing-info-container p,
+.cfm-ing-info-container ul {
+  max-width: calc(100% - 120px);
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.custom-notes-container span {
+  display: block;
+}
+
+.custom-notes-container p,
+.custom-notes-container ul {
+  max-width: 100%;
+}
+
+.cfm-ing-info-container ul,
+.cfm-ing-info-container li {
+  list-style: none;
+}
+
+.hide-ing-modal {
+  display: none;
+}
+
+@media screen and (min-width: 995px) {
+  .modal-content .function-group-container a:hover {
+    text-decoration: underline;
+  }
+
+  .modal-content .function-group-container a sup {
+    display: inline-block;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cfm-ing-info-container span {
+    margin-right: 0;
+    display: block;
+  }
+
+  .cfm-ing-info-container p,
+  .cfm-ing-info-container ul {
+    max-width: 100%;
+    display: block;
+  }
+
+  .ing-modal-content-container {
+    width: 75%;
+  }
+
+  .cfm-ing-info-container span {
+    flex-basis: 100%;
+  }
+
+  .cfm-ing-info-container p,
+  .cfm-ing-info-container ul {
+    flex-basis: 100%;
+    margin: 5px 0 0;
+  }
+
+  .close-side-drawer svg {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/*===================================================================
+  Ingredient Modal styling ends here
+===================================================================*/

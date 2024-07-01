@@ -1,0 +1,512 @@
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "breadcrumb": {
+          "type": "breadcrumb",
+          "settings": {
+            "text_style": "uppercase",
+            "show_divider": true
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "c941c5b6-30f2-45c5-ae5c-5ca5237e2fa7": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "heading": "Hurry up ! Sale end in:",
+            "number_size": "compact",
+            "colors_heading": "#da3f3f",
+            "colors_text": "#da3f3f",
+            "colors_background": "#ffeeee"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatch_type": "round",
+            "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": true
+          }
+        },
+        "b28395cd-ecb3-46ca-8cde-def9c0bc02cf": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"earn-points-wrapper\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0123\/4314\/8608\/files\/CBC_LoyaltyIcons_Digital2023__Seed2.png?v=1700500656\" \n     width=\"30\" \n     height=\"30\" \/>\n You will earn <span\n  class=\"swell-product-helper\"\n  data-mode=\"display-points\"\n  data-product-id=\"{{ product.selected_or_first_available_variant.id }}\"\n  data-price-cents=\"{{ product.selected_or_first_available_variant.price }}\">\n    <i class=\"fa fa-spin fa-spinner\" aria-hidden=\"true\"><\/i>\n  <\/span> points on this purchase with <a href=\"https:\/\/www.cleanbeauty.com\/pages\/rewards\">Clean And Conscious Rewards<\/a><\/>\n<\/div>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible_tab-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Notes",
+            "content": "<p>{{ product.metafields.custom_fields.notes.value }}<\/p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "04b8b150-10aa-4af0-a465-298a1f7fd95b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Sustainability",
+            "content": "<p>{{ product.metafields.custom_fields.sustainability.value }}<\/p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Ingredients",
+            "content": "<p>This ingredient list is subject to change to adhere to global safety standards. If an ingredient is deemed as unsafe, our perfumers remove or replace it while trying to keep the integrity of each scent. Please refer to the product packaging for the most up-to-date ingredient lists.<\/p><p><a href=\"\/pages\/no-to-list\" title=\"No-To List\"><strong>Ingredients we say NO to<\/strong><\/a><\/p>",
+            "page": "",
+            "custom_liquid": "{% render 'clear-for-me', product: product %}"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 20,
+            "show_inventory_transfer": true,
+            "color_scheme": "accent-3"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        },
+        "e19b7c2a-ef68-4ec1-84ed-c2febf83f650": {
+          "type": "shopify:\/\/apps\/id-me-community-verification\/blocks\/app-block\/d5b94743-37bb-4030-bcb4-b96ef384609c",
+          "disabled": true,
+          "settings": {
+            "offer_copy": "Select communities receive an exclusive discount with ID.me",
+            "fine_print": ""
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb",
+        "vendor",
+        "title",
+        "c941c5b6-30f2-45c5-ae5c-5ca5237e2fa7",
+        "rating",
+        "price",
+        "countdown",
+        "variant_picker",
+        "buy_buttons",
+        "b28395cd-ecb3-46ca-8cde-def9c0bc02cf",
+        "description",
+        "collapsible_tab-0",
+        "04b8b150-10aa-4af0-a465-298a1f7fd95b",
+        "collapsible_tab-1",
+        "inventory_status",
+        "share",
+        "related_buttons",
+        "sticky_cart",
+        "e19b7c2a-ef68-4ec1-84ed-c2febf83f650"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "small",
+        "gallery_layout": "stacked",
+        "image_ratio": "adapt_first",
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "c8adb972-f58c-459c-9ed2-49f5514674d6": {
+      "type": "perfect-match",
+      "blocks": {
+        "template--14911568773162__c8adb972-f58c-459c-9ed2-49f5514674d6-16813920189c9d26e2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14911568773162__c8adb972-f58c-459c-9ed2-49f5514674d6-16813920189c9d26e2-1": {
+          "type": "text",
+          "settings": {
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14911568773162__c8adb972-f58c-459c-9ed2-49f5514674d6-16813920189c9d26e2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "More Details",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14911568773162__c8adb972-f58c-459c-9ed2-49f5514674d6-16813920189c9d26e2-0",
+        "template--14911568773162__c8adb972-f58c-459c-9ed2-49f5514674d6-16813920189c9d26e2-1",
+        "template--14911568773162__c8adb972-f58c-459c-9ed2-49f5514674d6-16813920189c9d26e2-2"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 12,
+        "padding_bottom": 16
+      }
+    },
+    "7c2a5e29-c6ce-47b1-af60-fc7334623467": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14881552629802__7c2a5e29-c6ce-47b1-af60-fc7334623467-1676482664b5bcb357-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Perfect Match: CLEAN CLASSIC Skin",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14881552629802__7c2a5e29-c6ce-47b1-af60-fc7334623467-1676482664b5bcb357-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hints of dewy flower petals and warm musk create the enticing scent of touchable bare skin. Layer these fragrances to create your own personalized scent. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14881552629802__7c2a5e29-c6ce-47b1-af60-fc7334623467-1676482664b5bcb357-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "More Details",
+            "button_link": "shopify:\/\/products\/clean-classic-skin",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14881552629802__7c2a5e29-c6ce-47b1-af60-fc7334623467-1676482664b5bcb357-0",
+        "template--14881552629802__7c2a5e29-c6ce-47b1-af60-fc7334623467-1676482664b5bcb357-1",
+        "template--14881552629802__7c2a5e29-c6ce-47b1-af60-fc7334623467-1676482664b5bcb357-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shot_3_CC_Skin_60._2.23_sq.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "450px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "536bda6f-762f-4c57-b8da-844083a1513d": {
+      "type": "product-instafeed",
+      "settings": {
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6b3f7a91-4087-4011-8762-b93d12de62bf": {
+      "type": "video",
+      "settings": {
+        "cover_image": "shopify:\/\/shop_images\/classicvid.jpg",
+        "video_url": "https:\/\/vimeo.com\/825588399",
+        "description": "clean classic",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Hi, We're Clean Beauty Collective",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "fa74e903-faed-4227-bf2a-a43e4a18faa3": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\" src=\"https:\/\/cas.zma.gs\/61e0a1667826497cf6b95ca6\/ssr\/groups\/63fe447b6df9f10f76c33e0e\/init.js\"><\/script>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "reveal_banner_TfY8Nf": {
+      "type": "reveal-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/blueicons.webp",
+        "image_position": "center center",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "full_width": true,
+        "show_divider": false,
+        "image_mobile": "shopify:\/\/shop_images\/mblblueicons_bd1ecd7f-1fac-44f6-8147-91b51d2a1c6f.webp",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "adapt",
+        "show_text_below": false,
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": false,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": false,
+        "enable_countdown": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "167983820455cc763a": {
+      "type": "apps",
+      "blocks": {
+        "34c579c0-2999-4e74-81c0-1ebb8f9900df": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "34c579c0-2999-4e74-81c0-1ebb8f9900df"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "c201a6e2-366f-46da-8fca-643dce040ec5": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div id=\"feed-25139\" class=\"instafeed-shopify\"><\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "show_divider": false,
+        "heading": "Recently Viewed",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": false,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": false,
+        "enable_countdown": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Express yourself with",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>#instagram<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "177fdc41-107d-4f9d-ae3f-87e34252f5aa": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\nwindow.addEventListener('load', function() {\nvar _learnq = window._learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}\/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price\/100,\n      $value: data.total_price\/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price\/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', cart]);\n        klAjax = false;\n      }\n  }))\n};\n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}\/cart\/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch));\nvar klAjax = true;\nvar atcButtons = document.querySelectorAll(\"form[action*='\/cart\/add'] button[type='submit']\");\nfor (var i = 0; i < atcButtons.length; i++) {\n    atcButtons[i].addEventListener(\"click\", function() {\n      if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', item]);\n        klAjax = false;\n      }\n    })\n}\n});\n<\/script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "c8adb972-f58c-459c-9ed2-49f5514674d6",
+    "7c2a5e29-c6ce-47b1-af60-fc7334623467",
+    "536bda6f-762f-4c57-b8da-844083a1513d",
+    "6b3f7a91-4087-4011-8762-b93d12de62bf",
+    "fa74e903-faed-4227-bf2a-a43e4a18faa3",
+    "reveal_banner_TfY8Nf",
+    "product-recommendations",
+    "167983820455cc763a",
+    "c201a6e2-366f-46da-8fca-643dce040ec5",
+    "recently-viewed-products",
+    "rich-text",
+    "177fdc41-107d-4f9d-ae3f-87e34252f5aa"
+  ]
+}

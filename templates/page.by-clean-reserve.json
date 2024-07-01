@@ -1,0 +1,472 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": true,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "19c9c10f-cfee-4733-a483-e42ccb0a8715": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14887655899178__19c9c10f-cfee-4733-a483-e42ccb0a8715-167578897129115613-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14_CLEANBEAUTY_CR_COLLECTION1_425_v4_CLNT-_SS-Edited_189f52fb-f264-4595-a092-610decc1449a.png",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Meet CLEAN RESERVE",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "A FARM-TO-FRAGRANCE COLLECTION: Crafted with the perfumer’s reserve of sustainable ingredients that give back to farmers and their communities. Created with the people and the planet in mind, featuring eco-conscious packaging and formulas that put safety first.",
+            "text_size": "typeset",
+            "button_label": "",
+            "button_link": "",
+            "secondary_button_label": "Second button label",
+            "secondary_button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14887655899178__19c9c10f-cfee-4733-a483-e42ccb0a8715-167578897129115613-0"
+      ],
+      "settings": {
+        "slideshow_type": "legacy",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "300px",
+        "show_text_below": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 76,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "127e9cd4-7573-4d13-9398-4fa32c99aac7": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "clean-reserve",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "show_divider": false,
+        "heading": "Shop CLEAN RESERVE",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "secondary_image_max": 1,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": false,
+        "enable_countdown": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1b5e7862-7bd8-4cf6-a606-1c903786f5d7": {
+      "type": "video-hero",
+      "settings": {
+        "video_url": "https:\/\/www.youtube.com\/watch?v=-69-TcoDkvI",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "600px",
+        "show_text_box": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 12,
+        "padding_bottom": 20
+      }
+    },
+    "slideshow_Te96Ux": {
+      "type": "slideshow",
+      "blocks": {
+        "image_tMtHVD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blueicons_link.webp",
+            "image_mobile": "shopify:\/\/shop_images\/mblblueicons_link_08306932-c474-45e3-9953-0b77ab797a37.webp",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset",
+            "button_label": "",
+            "button_link": "shopify:\/\/pages\/no-to-list",
+            "secondary_button_label": "",
+            "secondary_button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "image_tMtHVD"
+      ],
+      "settings": {
+        "slideshow_type": "modern",
+        "text_alignment": "left",
+        "image_ratio": "adapt_first",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt_first",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 0,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e489ead7-4029-4b2a-b535-70f2b870165e": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\" src=\"https:\/\/cas.zma.gs\/61e0a1667826497cf6b95ca6\/ssr\/groups\/63fe447b6df9f10f76c33e0e\/init.js\"><\/script>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "c768023a-d417-43be-a1c7-dd242f5391ee": {
+      "type": "image-with-text",
+      "blocks": {
+        "7a9faa96-6288-4511-8f20-60ab192a2f7c": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "SUSTAINABLE NEVER SMELLED SO GOOD",
+            "subheading_size": "h5",
+            "secondary_color": false
+          }
+        },
+        "template--14887655899178__c768023a-d417-43be-a1c7-dd242f5391ee-1675788928fd0290c1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why CLEAN RESERVE?",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14887655899178__c768023a-d417-43be-a1c7-dd242f5391ee-1675788928fd0290c1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CLEAN RESERVE was developed with the perfumers’ reserve of fine sustainable ingredients that give back to local farmers and their communities. To us, “clean” fragrances do more than just eliminate certain harmful chemicals, they help sustain. Our sustainable products contain natural and synthetic ingredients that are cultivated responsibly to avoid depletion of the planet’s natural resources. <\/p><p><\/p><p>Our partners' unique partnership helps support community programs that promote education and healthcare for the farmers and their families who help make our products. CLEAN RESERVE also funds safe drinking water for a farming community in Haiti and is proud to support <a href=\"\/pages\/earth-day-2022\" title=\"\/pages\/earth-day-2022\">Earth Day<\/a> Network's Protect Our Species Program.<\/p><p><\/p><p>Scent has the power to transform how we feel and at CLEAN we want to be sure you feel good about what you put on.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--14887655899178__c768023a-d417-43be-a1c7-dd242f5391ee-1675788928fd0290c1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "See how we give back",
+            "button_link": "shopify:\/\/pages\/giveback",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "7a9faa96-6288-4511-8f20-60ab192a2f7c",
+        "template--14887655899178__c768023a-d417-43be-a1c7-dd242f5391ee-1675788928fd0290c1-0",
+        "template--14887655899178__c768023a-d417-43be-a1c7-dd242f5391ee-1675788928fd0290c1-1",
+        "template--14887655899178__c768023a-d417-43be-a1c7-dd242f5391ee-1675788928fd0290c1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CBC_April2023_Digital_Rain_100ml_01_square.jpg",
+        "image_position": "20% 50%",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "300px",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 20
+      }
+    },
+    "b108e681-ecad-42c7-a911-a997ef2538ef": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14887655899178__b108e681-ecad-42c7-a911-a997ef2538ef-16757948477ae055f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Everything's better together  |",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14887655899178__b108e681-ecad-42c7-a911-a997ef2538ef-16757948477ae055f1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CLEAN RESERVE fragrances are made to be mixed, matched, and layered together.  It’s about having fun and creating a new scent that suits you. But if you’re still unsure of where to begin, our perfumers have brought their years of expertise on how to marry different ingredients, notes, and accords together and have expertly paired some of their favorite fragrances just for you. Discover their favorite duos.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14887655899178__b108e681-ecad-42c7-a911-a997ef2538ef-16757948477ae055f1-0",
+        "template--14887655899178__b108e681-ecad-42c7-a911-a997ef2538ef-16757948477ae055f1-1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "left",
+        "horizontal_content": true,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_background": "#b7faf1",
+        "gradient_background": "",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "541b63e0-e382-4fe8-9f92-c0f339c7c8b1": {
+      "type": "tab-collage",
+      "blocks": {
+        "template--14887655899178__541b63e0-e382-4fe8-9f92-c0f339c7c8b1-1676485835ab3eac63-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Clean_Reserve_AcquaNeroli_SolarBloom_Pairing_Orange_Citrus_Summer_100ML.jpg",
+            "image_position": "center center",
+            "heading": "Summer Favorites",
+            "description": "<p><strong>Acqua Neroli + Solar Bloom<\/strong><\/p><p>‎ <\/p><p>Round out Solar Bloom's floral notes by pairing it with the effervescent citrus scent of Acqua Neroli known to uplift your mood. <\/p>",
+            "button_label": "Add Pairing to Cart",
+            "button_link": "https:\/\/cleanbeauty.com\/cart\/add?id[]=26224828481600&id[]=26224832348224",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "55508651-2ff8-483f-a979-b1afad983586": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15_CLEAN_RESERVE_SkinLE_RadiantNectar__v3_CLNT.jpg",
+            "image_position": "center center",
+            "heading": "Sensual Radiance",
+            "description": "<p><strong>Radiant Nectar + Skin<\/strong><\/p><p>‎ <\/p><p>With Skin's sensual feeling of a warm embrace paired with sparkling Pear Nectar, this feminine musk duo is made to allure. <\/p><p>‎ <\/p><p><em>Pro tip:<\/em> Skin adds a feminine, warm softness to any pairing<\/p>",
+            "button_label": "Add Pairing to Cart",
+            "button_link": "https:\/\/cleanbeauty.com\/cart\/add?id[]=40342448734250&id[]=31859223920682",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "703bb017-79ee-4859-ad26-4fa367d8422a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CLEAN_RESERVE_RAIN_WARM_COTTON.jpg",
+            "image_position": "center center",
+            "heading": "Cozy Clean",
+            "description": "<p><strong>Warm Cotton + Rain<\/strong><\/p><p>‎ <\/p><p>Ultimate comfort meets earthy, dewy freshness. Our best-selling quintessentially clean fragrances for anyone, anywhere.<\/p>",
+            "button_label": "Add Pairing to Cart",
+            "button_link": "https:\/\/cleanbeauty.com\/cart\/add?id[]=40319034687530&id[]=26874620739648",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "57cc06df-6f97-496a-93de-666c374a3ea1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CLEAN_RESERVE_100ML_GROUP_SHOT_RAIN_WC_SKIN_SEL_SANTAL_ACQUA_NEROLI_CITRON_FIG.jpg",
+            "image_position": "center center",
+            "heading": "Subtle Woods",
+            "description": "<p><strong>Sel Santal + Citron Fig<\/strong><\/p><p>‎ <\/p><p>Evocative and addictive, this earthy, woody duo is dynamic leaving a creamy masculine scent with a subtly crisp finish.<\/p><p>‎ <\/p><p><em>Pro tip:<\/em> Sueded Oud is an ideal unisex base for any pairing <\/p>",
+            "button_label": "Add Pairing to Cart",
+            "button_link": "https:\/\/cleanbeauty.com\/cart\/add?id[]=31092301201450&id[]=31092281802794",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14887655899178__541b63e0-e382-4fe8-9f92-c0f339c7c8b1-1676485835ab3eac63-0",
+        "55508651-2ff8-483f-a979-b1afad983586",
+        "703bb017-79ee-4859-ad26-4fa367d8422a",
+        "57cc06df-6f97-496a-93de-666c374a3ea1"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#a8636c",
+        "colors_text": "#1a1b18",
+        "colors_border": "#7b7c7e",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
+    "4ffda4ac-137c-4ff7-9da6-f85ecee31112": {
+      "type": "testimonials",
+      "blocks": {
+        "template--14887655899178__4ffda4ac-137c-4ff7-9da6-f85ecee31112-167579054743d2e0bf-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>For perfume addicts who are also ecologically minded, clean reserve makes a sustainable fragrance that you can layer and mix to create unique scents in your home.”<\/p>",
+            "image": "shopify:\/\/shop_images\/VOGUE_resize.png",
+            "author": "Vogue"
+          }
+        },
+        "template--14887655899178__4ffda4ac-137c-4ff7-9da6-f85ecee31112-167579054743d2e0bf-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Clean Reserve scents are luxurious and unique, and their bottles not only look chic, but are 100 percent recyclable, which is very rare for a perfume brand. My favourite is Rain [Reserve Blend], which is super fresh and clean.\"<\/p>",
+            "image": "shopify:\/\/shop_images\/bustle_resize.png",
+            "author": "Bustle"
+          }
+        },
+        "template--14887655899178__4ffda4ac-137c-4ff7-9da6-f85ecee31112-167579054743d2e0bf-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Whether male, female, or somewhere in the magical space between, Clean Reserve’s cotton scented perfume will make you smell so fresh and clean, you’ll want to sniff yourself, and your SO, all day long!”<\/p>",
+            "image": "shopify:\/\/shop_images\/elle_resize.png",
+            "author": "Elle"
+          }
+        },
+        "050c8c12-8898-473f-8c67-966e319e0857": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>I don't know if I've ever been as obsessed with a fragrance (Radiant Nectar) as I am with this one. It just smells SO GOOD.\"<\/p>",
+            "image": "shopify:\/\/shop_images\/Whoww_resize.png",
+            "author": "Who What Wear"
+          }
+        }
+      },
+      "block_order": [
+        "template--14887655899178__4ffda4ac-137c-4ff7-9da6-f85ecee31112-167579054743d2e0bf-0",
+        "template--14887655899178__4ffda4ac-137c-4ff7-9da6-f85ecee31112-167579054743d2e0bf-1",
+        "template--14887655899178__4ffda4ac-137c-4ff7-9da6-f85ecee31112-167579054743d2e0bf-2",
+        "050c8c12-8898-473f-8c67-966e319e0857"
+      ],
+      "settings": {
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "hide_images": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "9c3f69ec-fc63-47b9-b0af-a11bba2a4fc0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14887655899178__9c3f69ec-fc63-47b9-b0af-a11bba2a4fc0-16757948477ae055f1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW ALL PRESS",
+            "button_link": "shopify:\/\/pages\/press",
+            "button_size": "medium",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14887655899178__9c3f69ec-fc63-47b9-b0af-a11bba2a4fc0-16757948477ae055f1-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": true,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "19c9c10f-cfee-4733-a483-e42ccb0a8715",
+    "127e9cd4-7573-4d13-9398-4fa32c99aac7",
+    "1b5e7862-7bd8-4cf6-a606-1c903786f5d7",
+    "slideshow_Te96Ux",
+    "e489ead7-4029-4b2a-b535-70f2b870165e",
+    "c768023a-d417-43be-a1c7-dd242f5391ee",
+    "b108e681-ecad-42c7-a911-a997ef2538ef",
+    "541b63e0-e382-4fe8-9f92-c0f339c7c8b1",
+    "4ffda4ac-137c-4ff7-9da6-f85ecee31112",
+    "9c3f69ec-fc63-47b9-b0af-a11bba2a4fc0"
+  ]
+}

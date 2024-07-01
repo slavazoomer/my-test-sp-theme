@@ -4,7 +4,6 @@ if (!customElements.get('recipient-form')) {
     class RecipientForm extends HTMLElement {
       constructor() {
         super();
-        this.recipientFieldsLiveRegion = this.querySelector(`#Recipient-fields-live-region-${this.dataset.sectionId}`);
         this.checkboxInput = this.querySelector(`#Recipient-checkbox-${this.dataset.sectionId}`);
         this.checkboxInput.disabled = false;
         this.hiddenControlField = this.querySelector(`#Recipient-control-${this.dataset.sectionId}`);
@@ -66,12 +65,10 @@ if (!customElements.get('recipient-form')) {
       onChange() {
         if (this.checkboxInput.checked) {
           this.enableInputFields();
-          this.recipientFieldsLiveRegion.innerText = window.accessibilityStrings.recipientFormExpanded;
         } else {
           this.clearInputFields();
           this.disableInputFields();
           this.clearErrorMessage();
-          this.recipientFieldsLiveRegion.innerText = window.accessibilityStrings.recipientFormCollapsed;
         }
       }
 

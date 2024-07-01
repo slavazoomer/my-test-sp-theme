@@ -1,0 +1,60 @@
+{% assign free_gift_variant_id = '3213910114368' %}
+{% assign free_gift_product_id = '31368040513578' %}
+{% assign start_date = '2023-11-20 00:00' | date: '%s' %}
+{% assign end_date = '2023-11-27 23:59' | date: '%s' %}
+{% assign today_date = 'now' | date: '%s' %}
+{% assign cart_total = cart.total_price | divided_by: 100 %}
+
+{% if today_date >= start_date and today_date <= end_date and cart_total > 100 %}
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    console.log("test");
+    $('body').on('click', '.quantity__button, .quantity__button', function (event) {
+      console.log('event called');
+      setTimeout(function () {
+        window.location.href = '/cart';
+      }, 1000);
+    });
+
+    updateCart();
+
+    function updateCart() {
+      var cartItems = {{ cart.items | json }};
+      var cartUpdates = {};
+      var addFreeGift = true;
+
+      for (var i = 0; i < cartItems.length; i++) {
+        if (cartItems[i].id == {{ free_gift_product_id }}) {
+          addFreeGift = false;
+          break;
+        }
+      }
+
+      console.log("addFreeGift", addFreeGift);
+
+      if (addFreeGift) {
+        cartUpdates = { id: {{ free_gift_product_id }}, quantity: 1 };
+      } else {
+        cartUpdates = { id: {{ free_gift_product_id }}, quantity: 0 };
+      }
+
+      console.log("cartUpdates", cartUpdates);
+
+      if (addFreeGift) {
+        var params = {
+          type: 'POST',
+          url: '/cart/add.js',
+          data: { quantity: 1, id: {{ free_gift_product_id }} },
+          dataType: 'json',
+          success: function (stuff) {
+            window.location.href = '/cart';
+          }
+        };
+        $.ajax(params);
+      }
+    }
+  </script>
+{% else %}
+  
+{% endif %}

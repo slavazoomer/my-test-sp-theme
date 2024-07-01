@@ -1,0 +1,311 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "f370bbdd-3c42-4e48-9ab2-a1a3e3805292": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14954607804458__f370bbdd-3c42-4e48-9ab2-a1a3e3805292-16892553515ca30c89-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let's get social!",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14954607804458__f370bbdd-3c42-4e48-9ab2-a1a3e3805292-16892553515ca30c89-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Follow us on all of your favorite social media platforms.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14954607804458__f370bbdd-3c42-4e48-9ab2-a1a3e3805292-16892553515ca30c89-0",
+        "template--14954607804458__f370bbdd-3c42-4e48-9ab2-a1a3e3805292-16892553515ca30c89-1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 4
+      }
+    },
+    "45fd92c1-a01b-4d30-aeaa-6e34640d8f49": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div \n    class=\"social-widget-wrapper\" data-widget-id=\"54831\">\n    <\/div>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
+    "a3160deb-f147-4273-9678-77d96bc0f873": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14954607804458__a3160deb-f147-4273-9678-77d96bc0f873-16896236276382e17d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Follow us on Instagram",
+            "button_link": "https:\/\/www.instagram.com\/cleanbeauty_collective\/",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14954607804458__a3160deb-f147-4273-9678-77d96bc0f873-16896236276382e17d-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "f0cda61c-9b84-4973-b864-61dbee66167f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div \n    class=\"social-widget-wrapper\" data-widget-id=\"54833\">\n    <\/div>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "99806fbc-45bc-403e-82e5-e0a26ae1a7e2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14954607804458__99806fbc-45bc-403e-82e5-e0a26ae1a7e2-16896236276382e17d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Follow Us on TIKTOK",
+            "button_link": "https:\/\/www.tiktok.com\/@cleanbeauty_collective",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14954607804458__99806fbc-45bc-403e-82e5-e0a26ae1a7e2-16896236276382e17d-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "7efefd58-ec9f-4e71-9a01-a885f0beb864": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14954607804458__7efefd58-ec9f-4e71-9a01-a885f0beb864-1689256236758cadc0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clean Beauty Collective on Pinterest",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14954607804458__7efefd58-ec9f-4e71-9a01-a885f0beb864-1689256236758cadc0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For content about our products and gift guides.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14954607804458__7efefd58-ec9f-4e71-9a01-a885f0beb864-1689256236758cadc0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Follow us on Pinterest!",
+            "button_link": "https:\/\/pin.it\/5jRTdPz",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14954607804458__7efefd58-ec9f-4e71-9a01-a885f0beb864-1689256236758cadc0-0",
+        "template--14954607804458__7efefd58-ec9f-4e71-9a01-a885f0beb864-1689256236758cadc0-1",
+        "template--14954607804458__7efefd58-ec9f-4e71-9a01-a885f0beb864-1689256236758cadc0-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cbc_pinterest_30a34f57-8e2b-4923-b4c5-00ab0013db5e.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0ef560ae-282c-426b-8f06-3a2a8d3ab0af": {
+      "type": "video",
+      "settings": {
+        "cover_image": "shopify:\/\/shop_images\/videocap.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=-69-TcoDkvI",
+        "description": "clean beauty collective",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "@cleanbeauty_collective on Youtube",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "8b23eb7b-b568-46c4-b666-5aad02d052a5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14954607804458__8b23eb7b-b568-46c4-b666-5aad02d052a5-16892553515ca30c89-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Subscribe on Youtube",
+            "button_link": "https:\/\/www.youtube.com\/@cleanbeauty_collective",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14954607804458__8b23eb7b-b568-46c4-b666-5aad02d052a5-16892553515ca30c89-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "35d60406-3b54-4292-b81f-8391d47e40b0": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14954607804458__35d60406-3b54-4292-b81f-8391d47e40b0-1689256236758cadc0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clean Beauty Collective on Facebook",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--14954607804458__35d60406-3b54-4292-b81f-8391d47e40b0-1689256236758cadc0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For product launches, sale updates, and brand content.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--14954607804458__35d60406-3b54-4292-b81f-8391d47e40b0-1689256236758cadc0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Follow Us on Facebook",
+            "button_link": "https:\/\/www.facebook.com\/cleanbeautycollectiveinc",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14954607804458__35d60406-3b54-4292-b81f-8391d47e40b0-1689256236758cadc0-0",
+        "template--14954607804458__35d60406-3b54-4292-b81f-8391d47e40b0-1689256236758cadc0-1",
+        "template--14954607804458__35d60406-3b54-4292-b81f-8391d47e40b0-1689256236758cadc0-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/fb_2ea5f3f3-e80d-4ee8-a50e-c800bd88e7e2.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f370bbdd-3c42-4e48-9ab2-a1a3e3805292",
+    "45fd92c1-a01b-4d30-aeaa-6e34640d8f49",
+    "a3160deb-f147-4273-9678-77d96bc0f873",
+    "f0cda61c-9b84-4973-b864-61dbee66167f",
+    "99806fbc-45bc-403e-82e5-e0a26ae1a7e2",
+    "7efefd58-ec9f-4e71-9a01-a885f0beb864",
+    "0ef560ae-282c-426b-8f06-3a2a8d3ab0af",
+    "8b23eb7b-b568-46c4-b666-5aad02d052a5",
+    "35d60406-3b54-4292-b81f-8391d47e40b0"
+  ]
+}

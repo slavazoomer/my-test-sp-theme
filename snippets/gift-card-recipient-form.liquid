@@ -54,7 +54,6 @@
       {% endunless %}
     >
       <h2 class="form__message" tabindex="-1" autofocus>
-        {% render 'icon-error' %}
         <span class="error-message">{{ 'templates.contact.form.error_heading' | t }}</span>
       </h2>
 
@@ -74,11 +73,6 @@
         {%- endif -%}
       </ul>
     </div>
-    <p
-      id="Recipient-fields-live-region-{{ section.id }}"
-      class="visually-hidden"
-      role="status"
-    ></p>
     <div class="recipient-fields">
       <hr>
       <div class="recipient-fields__field">
@@ -95,7 +89,7 @@
               aria-describedby="RecipientForm-email-error-{{ section.id }}"
             {% endif %}
           >
-          <label class="field__label" for="Recipient-email-{{ section.id }}">
+          <label class="field__label visually-hidden" for="Recipient-email-{{ section.id }}">
             <span class="recipient-email-label required">{{ 'recipient.form.email_label' | t }}</span>
             <span class="recipient-email-label optional">
               {{- 'recipient.form.email_label_optional_for_no_js_behavior' | t -}}
@@ -107,7 +101,6 @@
           id="RecipientForm-email-error-{{ section.id }}"
           class="form__message{% unless form.errors contains 'email' %} hidden{% endunless %}"
         >
-          {% render 'icon-error' %}
           <span class="error-message">
             {%- if form.errors contains 'email' -%}
               {{ form.errors.messages.email }}.
@@ -131,7 +124,7 @@
               aria-describedby="RecipientForm-name-error-{{ section.id }}"
             {% endif %}
           >
-          <label class="field__label" for="Recipient-name-{{ section.id }}">
+          <label class="field__label visually-hidden" for="Recipient-name-{{ section.id }}">
             {{- 'recipient.form.name_label' | t -}}
           </label>
         </div>
@@ -140,7 +133,6 @@
           id="RecipientForm-name-error-{{ section.id }}"
           class="form__message{% unless form.errors contains 'name' %} hidden{% endunless %}"
         >
-          {% render 'icon-error' %}
           <span class="error-message">
             {%- if form.errors contains 'name' -%}
               {{ form.errors.messages.name }}.
@@ -153,6 +145,7 @@
         {%- assign max_chars_message = 200 -%}
         {%- assign max_chars_message_rendered = 'recipient.form.max_characters' | t: max_chars: max_chars_message -%}
         {%- assign message_label_rendered = 'recipient.form.message_label' | t -%}
+
         <div class="field">
           <textarea
             rows="10"
@@ -167,12 +160,12 @@
               aria-describedby="RecipientForm-message-error-{{ section.id }}"
             {% endif %}
           >{{ form.message }}</textarea>
-          <label class="form__label field__label" for="Recipient-message-{{ section.id }}">
+          <label class="form__label field__label visually-hidden" for="Recipient-message-{{ section.id }}">
             {{ message_label_rendered }}
           </label>
         </div>
 
-        <label class="form__label recipient-form-field-label recipient-form-field-label--space-between">
+        <label class="form__label recipient-form-field-label recipient-form-field-label--space-between visually-hidden">
           <span>{{ max_chars_message_rendered }}</span>
         </label>
 
@@ -180,7 +173,6 @@
           id="RecipientForm-message-error-{{ section.id }}"
           class="form__message{% unless form.errors contains 'message' %} hidden{% endunless %}"
         >
-          {% render 'icon-error' %}
           <span class="error-message">
             {%- if form.errors contains 'message' -%}
               {{ form.errors.messages.message }}.
@@ -205,7 +197,7 @@
               aria-describedby="RecipientForm-send_on-error-{{ section.id }}"
             {% endif %}
           >
-          <label class="form__label field__label" for="Recipient-send-on-{{ section.id }}">
+          <label class="form__label field__label visually-hidden" for="Recipient-send-on-{{ section.id }}">
             {{ 'recipient.form.send_on_label' | t }}
           </label>
         </div>
@@ -214,7 +206,6 @@
           id="RecipientForm-send_on-error-{{ section.id }}"
           class="form__message{% unless form.errors contains 'send_on' %} hidden{% endunless %}"
         >
-          {% render 'icon-error' %}
           <span class="error-message">
             {%- if form.errors contains 'send_on' -%}
               {{ form.errors.messages.send_on }}.
